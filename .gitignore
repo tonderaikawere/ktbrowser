@@ -1,0 +1,25 @@
+# Python & PyInstaller
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# C++ Build outputs
+bin/
+obj/
+*.exe
+*.dll
+*.o
+*.obj
+
+# Browser data
+history.db
+bookmarks.json
+settings.json
+
+# IDE & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/test_adblock.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/test_database.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/package.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/package_source.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/test.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/edit_cache.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/rebuild_cache.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/test_adblock_autogen_timestamp_deps.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/test_adblock_autogen.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/test_database_autogen_timestamp_deps.dir
+C:/Users/Tonde/Downloads/KT Browser/build_mingw64/CMakeFiles/test_database_autogen.dir

@@ -1,0 +1,14 @@
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/codebrowser.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/test_adblock.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/test_database.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/package.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/package_source.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/test.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/edit_cache.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/rebuild_cache.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/codebrowser_autogen_timestamp_deps.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/codebrowser_autogen.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/test_adblock_autogen_timestamp_deps.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/test_adblock_autogen.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/test_database_autogen_timestamp_deps.dir
+C:/Users/Tonde/Downloads/KT Browser/build_qt6/CMakeFiles/test_database_autogen.dir

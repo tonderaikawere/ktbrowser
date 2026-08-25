@@ -1,0 +1,45 @@
+# ninja log v7
+67	13771	8092213069096073	codebrowser_autogen/timestamp	aaa3016648e85d0
+67	13771	8092213069096073	codebrowser_autogen/mocs_compilation.cpp	aaa3016648e85d0
+67	13771	8092213069096073	C:/Users/Tonde/Downloads/KT Browser/build_qt6/codebrowser_autogen/timestamp	aaa3016648e85d0
+67	13771	8092213069096073	C:/Users/Tonde/Downloads/KT Browser/build_qt6/codebrowser_autogen/mocs_compilation.cpp	aaa3016648e85d0
+13856	14131	8092213074849356	codebrowser_autogen/3YJK5W5UP7/qrc_codebrowser.cpp	a0c0548455c46372
+13856	14131	8092213074849356	C:/Users/Tonde/Downloads/KT Browser/build_qt6/codebrowser_autogen/3YJK5W5UP7/qrc_codebrowser.cpp	a0c0548455c46372
+14151	31081	8092213075407492	CMakeFiles/codebrowser.dir/src/main.cpp.obj	7398c499020c64bc
+14238	31132	8092213076275190	CMakeFiles/codebrowser.dir/src/ui/AddressBar.cpp.obj	a7729528f959c7be
+14221	31162	8092213076103060	CMakeFiles/codebrowser.dir/src/browser/NavigationController.cpp.obj	102102417ff1ffd5
+14260	31206	8092213076508474	CMakeFiles/codebrowser.dir/src/ui/BrowserToolbar.cpp.obj	f15cbaa8015ca08b
+14291	31229	8092213076815986	CMakeFiles/codebrowser.dir/src/ui/NewTabPage.cpp.obj	19d7598c0e9e5394
+14187	31392	8092213075765350	CMakeFiles/codebrowser.dir/src/browser/BrowserTab.cpp.obj	bdd6363acd268eac
+14133	32675	8092213075236498	CMakeFiles/codebrowser.dir/codebrowser_autogen/mocs_compilation.cpp.obj	a8791dc9698ce9b2
+178	1298	8092213739597584	codebrowser_autogen/timestamp	aaa3016648e85d0
+178	1298	8092213739597584	codebrowser_autogen/mocs_compilation.cpp	aaa3016648e85d0
+178	1298	8092213739597584	C:/Users/Tonde/Downloads/KT Browser/build_qt6/codebrowser_autogen/timestamp	aaa3016648e85d0
+178	1298	8092213739597584	C:/Users/Tonde/Downloads/KT Browser/build_qt6/codebrowser_autogen/mocs_compilation.cpp	aaa3016648e85d0
+1464	11993	8092213752466384	CMakeFiles/codebrowser.dir/src/adblock/FilterRule.cpp.obj	6896690aa004c983
+1334	15626	8092213751144614	CMakeFiles/codebrowser.dir/src/ui/TabBar.cpp.obj	7ccc99dd5f0a309d
+1445	15963	8092213752264685	CMakeFiles/codebrowser.dir/src/adblock/FilterParser.cpp.obj	a11dba4fa85d2255
+1428	18553	8092213752092943	CMakeFiles/codebrowser.dir/src/adblock/AdBlockEngine.cpp.obj	f8cf489ccf97c691
+1408	19217	8092213751902416	CMakeFiles/codebrowser.dir/src/ui/DownloadsWidget.cpp.obj	1400c5d3016c0424
+1317	19266	8092213750998531	CMakeFiles/codebrowser.dir/src/browser/TabManager.cpp.obj	e5763bced6fc9abb
+1480	20176	8092213752623856	CMakeFiles/codebrowser.dir/src/adblock/FilterListManager.cpp.obj	3ca10e4fb0f97662
+11993	21628	8092213857758676	CMakeFiles/codebrowser.dir/src/adblock/BlockStatistics.cpp.obj	1b45a32cdc02ac44
+1302	21923	8092213750839886	CMakeFiles/codebrowser.dir/src/browser/BrowserWindow.cpp.obj	4909778fff1d1a42
+15627	26431	8092213894094655	CMakeFiles/codebrowser.dir/src/adblock/WebEngineUrlRequestInterceptor.cpp.obj	3a0b72acfc9a1bfa
+15964	27016	8092213897453352	CMakeFiles/codebrowser.dir/src/privacy/PrivacyManager.cpp.obj	7aeacc289d060f0
+99	1269	8092214248932713	codebrowser_autogen/timestamp	aaa3016648e85d0
+99	1269	8092214248932713	codebrowser_autogen/mocs_compilation.cpp	aaa3016648e85d0
+99	1269	8092214248932713	C:/Users/Tonde/Downloads/KT Browser/build_qt6/codebrowser_autogen/timestamp	aaa3016648e85d0
+99	1269	8092214248932713	C:/Users/Tonde/Downloads/KT Browser/build_qt6/codebrowser_autogen/mocs_compilation.cpp	aaa3016648e85d0
+1323	8719	8092214261190197	CMakeFiles/codebrowser.dir/src/privacy/TrackerProtection.cpp.obj	333ab515c0187637
+1357	13547	8092214261520073	CMakeFiles/codebrowser.dir/src/database/Database.cpp.obj	e31fec5da785c1e8
+1382	13578	8092214261773971	CMakeFiles/codebrowser.dir/src/database/BookmarkRepository.cpp.obj	7a03aa1d1b67680c
+1394	13599	8092214261895662	CMakeFiles/codebrowser.dir/src/database/SettingsRepository.cpp.obj	7b32ee7a0e8d1589
+13548	13891	8092214383420463	CMakeFiles/codebrowser.dir/codebrowser_autogen/3YJK5W5UP7/qrc_codebrowser.cpp.obj	c1397f1e652b1b7b
+1369	14503	8092214261647279	CMakeFiles/codebrowser.dir/src/database/HistoryRepository.cpp.obj	ce9f355fc8e5a544
+1287	14955	8092214260768034	CMakeFiles/codebrowser.dir/src/ui/HistoryManagerWidget.cpp.obj	79813196dc3af87c
+1341	15357	8092214261353966	CMakeFiles/codebrowser.dir/src/privacy/PermissionsManagerWidget.cpp.obj	39df0839a94f5ac4
+1406	16006	8092214262007753	CMakeFiles/codebrowser.dir/src/downloads/DownloadManager.cpp.obj	451cb45dbeba102b
+1272	16091	8092214260679086	CMakeFiles/codebrowser.dir/src/ui/BookmarkManagerWidget.cpp.obj	da022601109aa5da
+1304	16713	8092214260997322	CMakeFiles/codebrowser.dir/src/privacy/PrivacyDashboard.cpp.obj	a35a1724032f6ad3
+8719	20992	8092214335143002	CMakeFiles/codebrowser.dir/src/settings/SettingsWindow.cpp.obj	9c6dccb7ed22cce

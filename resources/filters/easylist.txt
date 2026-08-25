@@ -1,0 +1,32 @@
+! CodeBrowser Default Built-in Filter List
+! Homepage: https://github.com/codebrowser/codebrowser
+! Version: 1.0.0
+! -------------------------------------------------------------
+||doubleclick.net^
+||google-analytics.com^
+||analytics.google.com^
+||googletagmanager.com^
+||connect.facebook.net^
+||pixel.facebook.com^
+||adnxs.com^
+||rubiconproject.com^
+||pubmatic.com^
+||openx.net^
+||criteo.com^
+||criteo.net^
+||outbrain.com^
+||taboola.com^
+||zedo.com^
+||amazon-adsystem.com^
+||adroll.com^
+||popads.net^
+||propellerads.com^
+||exoclick.com^
+||adblade.com^
+||buy-ads.com^
+||hotjar.com^
+||mixpanel.com^
+||segment.io^
+||quantserve.com^
+||scorecardresearch.com^
+||clarity.ms^

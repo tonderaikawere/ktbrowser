@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_test_adblock_FILE C:/Users/Tonde/Downloads/KT Browser/build_mingw64/test_adblock.exe)
+set(__QT_DEPLOY_TARGET_test_adblock_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_test_adblock_RUNTIME_DLLS C:/QtMinGW/6.8.0/mingw_64/bin/Qt6Network.dll;C:/QtMinGW/6.8.0/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_test_database_FILE C:/Users/Tonde/Downloads/KT Browser/build_mingw64/test_database.exe)
+set(__QT_DEPLOY_TARGET_test_database_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_test_database_RUNTIME_DLLS C:/QtMinGW/6.8.0/mingw_64/bin/Qt6Sql.dll;C:/QtMinGW/6.8.0/mingw_64/bin/Qt6Core.dll)

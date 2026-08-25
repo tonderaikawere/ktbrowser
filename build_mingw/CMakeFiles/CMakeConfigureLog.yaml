@@ -1,0 +1,2794 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja-build.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja-build.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja-build"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/samu.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/samu.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/samu"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/ninja-build.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/ninja-build.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/ninja-build"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/ninja.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/ninja.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/ninja"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/samu.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/samu.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/sbin/samu"
+      - "C:/QtMinGW/6.8.0/mingw_64/ninja-build.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/ninja-build.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/ninja-build"
+      - "C:/QtMinGW/6.8.0/mingw_64/ninja.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/ninja.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/ninja"
+      - "C:/QtMinGW/6.8.0/mingw_64/samu.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/samu.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/samu"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja-build.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja-build.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja-build"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/ninja"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/samu.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/samu.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/samu"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/ninja-build.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/ninja-build.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/ninja-build"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/ninja.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/ninja.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/ninja"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/samu.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/samu.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/samu"
+      - "C:/msys64/ucrt64/bin/ninja-build.com"
+      - "C:/msys64/ucrt64/bin/ninja-build.exe"
+      - "C:/msys64/ucrt64/bin/ninja-build"
+      - "C:/msys64/ucrt64/bin/ninja.com"
+    found: "C:/msys64/ucrt64/bin/ninja.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/c++.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/c++.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/c++"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/g++.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/g++.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/g++"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/cl.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/cl.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/cl"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/bcc.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/bcc.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/bcc"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/icx.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/icx.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/icx"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/clang++.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/clang++.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/clang++"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/c++.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/c++.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/c++"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/g++.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/g++.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/g++"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/cl.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/cl.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/cl"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/bcc.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/bcc.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/bcc"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/icx.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/icx.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/icx"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/clang++.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/clang++.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/clang++"
+      - "C:/msys64/ucrt64/bin/c++.com"
+    found: "C:/msys64/ucrt64/bin/c++.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      c++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      1
+      c++.exe: error: unrecognized command-line option '--c++'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      1
+      c++.exe: error: unrecognized command-line option '--ec++'; did you mean '-Weffc++'?
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      1
+      c++.exe: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+      c++.exe: error: unrecognized command-line option '--target=arm-arm-none-eabi'
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/msys64/ucrt64/bin/c++.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      1
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+      c++.exe: fatal error: no input files
+      compilation terminated.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ar.com"
+    found: "C:/msys64/ucrt64/bin/ar.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ranlib.com"
+    found: "C:/msys64/ucrt64/bin/ranlib.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/strip.com"
+    found: "C:/msys64/ucrt64/bin/strip.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/ld.com"
+    found: "C:/msys64/ucrt64/bin/ld.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/nm.com"
+    found: "C:/msys64/ucrt64/bin/nm.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objdump.com"
+    found: "C:/msys64/ucrt64/bin/objdump.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/objcopy.com"
+    found: "C:/msys64/ucrt64/bin/objcopy.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/readelf.com"
+    found: "C:/msys64/ucrt64/bin/readelf.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/dlltool.com"
+    found: "C:/msys64/ucrt64/bin/dlltool.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/addr2line.com"
+    found: "C:/msys64/ucrt64/bin/addr2line.exe"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Qoder/bin/"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Tonde/AppData/Roaming/npm/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/tapi.com"
+      - "C:/msys64/ucrt64/bin/tapi.exe"
+      - "C:/msys64/ucrt64/bin/tapi"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/tapi.com"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/tapi.exe"
+      - "C:/QtMinGW/6.8.0/mingw_64/bin/tapi"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/bin/tapi"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/tapi.com"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/tapi.exe"
+      - "C:/Users/Tonde/.gemini/antigravity-ide/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/Qoder/bin/tapi.com"
+      - "C:/Program Files/Qoder/bin/tapi.exe"
+      - "C:/Program Files/Qoder/bin/tapi"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/agy/bin/tapi"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/Tonde/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/Tonde/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/Tonde/AppData/Roaming/npm/tapi"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/Programs/Antigravity IDE/bin/tapi"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/Kiro-Cli/tapi"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/Programs/Ollama/tapi"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/Microsoft/WinGet/Packages/Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe/platform-tools/tapi"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/tapi.com"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/tapi.exe"
+      - "C:/Users/Tonde/AppData/Local/Programs/Kiro/bin/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\6.8.0\\mingw_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Tonde/Downloads/KT Browser/build_mingw/CMakeFiles/CMakeScratch/TryCompile-ziem5y"
+      binary: "C:/Users/Tonde/Downloads/KT Browser/build_mingw/CMakeFiles/CMakeScratch/TryCompile-ziem5y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/Tonde/Downloads/KT Browser/build_mingw/CMakeFiles/CMakeScratch/TryCompile-ziem5y'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_c19b9
+        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe    -o CMakeFiles\\cmTC_c19b9.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp
+        FAILED: [code=1] CMakeFiles/cmTC_c19b9.dir/CMakeCXXCompilerABI.cpp.obj 
+        C:\\msys64\\ucrt64\\bin\\c++.exe    -o CMakeFiles\\cmTC_c19b9.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working CXX compiler: C:/msys64/ucrt64/bin/c++.exe"
+    directories:
+      source: "C:/Users/Tonde/Downloads/KT Browser/build_mingw/CMakeFiles/CMakeScratch/TryCompile-gspt6k"
+      binary: "C:/Users/Tonde/Downloads/KT Browser/build_mingw/CMakeFiles/CMakeScratch/TryCompile-gspt6k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: false
+      stdout: |
+        Change Dir: 'C:/Users/Tonde/Downloads/KT Browser/build_mingw/CMakeFiles/CMakeScratch/TryCompile-gspt6k'
+        
+        Run Build Command(s): C:/msys64/ucrt64/bin/ninja.exe -v cmTC_7d53c
+        [1/2] C:\\msys64\\ucrt64\\bin\\c++.exe    -o CMakeFiles\\cmTC_7d53c.dir\\testCXXCompiler.cxx.obj -c "C:\\Users\\Tonde\\Downloads\\KT Browser\\build_mingw\\CMakeFiles\\CMakeScratch\\TryCompile-gspt6k\\testCXXCompiler.cxx"
+        FAILED: [code=1] CMakeFiles/cmTC_7d53c.dir/testCXXCompiler.cxx.obj 
+        C:\\msys64\\ucrt64\\bin\\c++.exe    -o CMakeFiles\\cmTC_7d53c.dir\\testCXXCompiler.cxx.obj -c "C:\\Users\\Tonde\\Downloads\\KT Browser\\build_mingw\\CMakeFiles\\CMakeScratch\\TryCompile-gspt6k\\testCXXCompiler.cxx"
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/"
+    found: "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "C:/QtMinGW/6.8.0/mingw_64"
+      ENV{PATH}:
+        - "C:\\QtMinGW\\Tools\\mingw1310_64\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python313\\site-packages\\cmake\\data\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:/Users/Tonde/.gemini/antigravity-ide/bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Qoder\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\agy\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Roaming\\npm"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Kiro-Cli\\"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\\platform-tools"
+        - "C:\\Users\\Tonde\\AppData\\Local\\Programs\\Kiro\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/CodeBrowser"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/QtMinGW/Tools/mingw1310_64/bin/g++.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Tonde/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0/LocalCache/local-packages/Python313/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+...
