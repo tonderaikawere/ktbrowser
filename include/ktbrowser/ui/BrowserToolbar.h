@@ -13,6 +13,7 @@ public:
     explicit BrowserToolbar(QWidget* parent = nullptr);
 
     AddressBar* addressBar() const { return m_addressBar; }
+    QToolButton* settingsButton() const { return m_settingsBtn; }
     
     void setCanGoBack(bool can);
     void setCanGoForward(bool can);

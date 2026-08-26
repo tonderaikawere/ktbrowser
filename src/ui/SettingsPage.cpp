@@ -125,7 +125,6 @@ void SettingsPage::saveSettings() {
     m_repo.setAdBlockEnabled(m_adBlockCheckBox->isChecked());
     m_repo.setTrackerProtectionEnabled(m_trackerProtectionCheckBox->isChecked());
 
-    emit settingsChanged();
     QMessageBox::information(this, "Settings Saved", "Your settings have been saved successfully!");
 }
 

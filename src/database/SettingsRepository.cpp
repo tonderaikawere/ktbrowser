@@ -59,4 +59,20 @@ void SettingsRepository::setTheme(const QString& themeName) {
     setSetting("theme", themeName);
 }
 
+bool SettingsRepository::isAdBlockEnabled() const {
+    return setting("adblock_enabled", "true") == "true";
+}
+
+void SettingsRepository::setAdBlockEnabled(bool enabled) {
+    setSetting("adblock_enabled", enabled ? "true" : "false");
+}
+
+bool SettingsRepository::isTrackerProtectionEnabled() const {
+    return setting("tracker_protection_enabled", "true") == "true";
+}
+
+void SettingsRepository::setTrackerProtectionEnabled(bool enabled) {
+    setSetting("tracker_protection_enabled", enabled ? "true" : "false");
+}
+
 } // namespace ktbrowser

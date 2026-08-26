@@ -15,6 +15,8 @@
 #include <QApplication>
 #include <QStyleFactory>
 #include <QMessageBox>
+#include <QMenu>
+#include <QAction>
 #include <QDebug>
 
 namespace ktbrowser {
@@ -114,18 +116,102 @@ void BrowserWindow::setupConnections() {
         histWidget.exec();
     });
 
-    connect(m_toolbar, &BrowserToolbar::downloadsRequested, this, [this]() {
-        DownloadsWidget dlWidget(this);
-        dlWidget.exec();
+    // Build full 3-dot Menu matching user screenshots with tabbed opening
+    auto* menu = new QMenu(this);
+    
+    auto* actNewTab = menu->addAction("➕  New tab");
+    actNewTab->setShortcut(QKeySequence("Ctrl+T"));
+    connect(actNewTab, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://newtab"), true);
     });
 
-    connect(m_toolbar, &BrowserToolbar::settingsRequested, this, [this]() {
-        SettingsWindow settings(this);
-        if (settings.exec() == QDialog::Accepted) {
-            SettingsRepository repo;
-            applyTheme(repo.theme());
-        }
+    auto* actNewWin = menu->addAction("🪟  New window");
+    actNewWin->setShortcut(QKeySequence("Ctrl+N"));
+    connect(actNewWin, &QAction::triggered, this, [this]() {
+        auto* win = new BrowserWindow();
+        win->show();
     });
+
+    auto* actIncognito = menu->addAction("🕵️  New Incognito window");
+    actIncognito->setShortcut(QKeySequence("Ctrl+Shift+N"));
+    connect(actIncognito, &QAction::triggered, this, [this]() {
+        auto* win = new BrowserWindow();
+        win->show();
+    });
+
+    menu->addSeparator();
+
+    auto* actProfile = menu->addAction("👤  Tonderai (Signed in)");
+    connect(actProfile, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://profile"), true);
+    });
+
+    auto* actPasswords = menu->addAction("🔑  Passwords and autofill");
+    connect(actPasswords, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://passwords"), true);
+    });
+
+    auto* actHistory = menu->addAction("📜  History");
+    connect(actHistory, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://history"), true);
+    });
+
+    auto* actDownloads = menu->addAction("📥  Downloads");
+    actDownloads->setShortcut(QKeySequence("Ctrl+J"));
+    connect(actDownloads, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://downloads"), true);
+    });
+
+    auto* actBookmarks = menu->addAction("⭐  Bookmarks and lists");
+    connect(actBookmarks, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://bookmarks"), true);
+    });
+
+    auto* actTabGroups = menu->addAction("📁  Tab groups");
+    connect(actTabGroups, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://tab-groups"), true);
+    });
+
+    auto* actExtensions = menu->addAction("🧩  Extensions");
+    connect(actExtensions, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://extensions"), true);
+    });
+
+    auto* actClear = menu->addAction("🗑️  Delete browsing data...");
+    actClear->setShortcut(QKeySequence("Ctrl+Shift+Del"));
+    connect(actClear, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://settings"), true);
+    });
+
+    menu->addSeparator();
+
+    auto* actAi = menu->addAction("✨  Open KT AI Assistant");
+    connect(actAi, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://ai"), true);
+    });
+
+    auto* actTools = menu->addAction("🛠️  More tools");
+    connect(actTools, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://tools"), true);
+    });
+
+    menu->addSeparator();
+
+    auto* actHelp = menu->addAction("❓  Help");
+    connect(actHelp, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://help"), true);
+    });
+
+    auto* actSettings = menu->addAction("⚙️  Settings");
+    connect(actSettings, &QAction::triggered, this, [this]() {
+        m_tabManager->createTab(QUrl("ktbrowser://settings"), true);
+    });
+
+    auto* actExit = menu->addAction("🚪  Exit");
+    connect(actExit, &QAction::triggered, this, &QWidget::close);
+
+    m_toolbar->settingsButton()->setMenu(menu);
+    m_toolbar->settingsButton()->setPopupMode(QToolButton::InstantPopup);
 
     // Address Bar input
     connect(m_toolbar->addressBar(), &AddressBar::navigateRequested, this, [this](const QString& input) {
