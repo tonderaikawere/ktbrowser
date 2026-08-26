@@ -1,6 +1,6 @@
 @echo off
 echo ===================================================
-echo Building CodeBrowser Native Windows Executable
+echo Building KT Browser Native Windows Executable
 echo ===================================================
 
 if not exist build mkdir build
@@ -22,6 +22,6 @@ echo Running Unit Tests...
 ctest --output-on-failure
 
 echo ===================================================
-echo CodeBrowser built successfully! Executable in build/
+echo KT Browser built successfully! Executable in build/
 echo ===================================================
 cd ..

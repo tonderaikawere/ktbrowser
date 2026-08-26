@@ -1,0 +1,48 @@
+name: KT Browser CI/CD Build & Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    name: Build & Test (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Qt 6
+        uses: jurplel/install-qt@v3
+        with:
+          version: '6.6.2'
+          arch: ${{ matrix.os == 'windows-latest' && 'win64_mingw' || '' }}
+
+      - name: Install Dependencies (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential cmake ninja-build libgl1-mesa-dev
+
+      - name: Configure CMake
+        run: |
+          mkdir build
+          cd build
+          cmake .. -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build Executables
+        run: |
+          cd build
+          cmake --build . --config Release
+
+      - name: Run CTest Unit Tests
+        run: |
+          cd build
+          ctest --output-on-failure -C Release

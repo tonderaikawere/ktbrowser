@@ -1,11 +1,11 @@
-#include "codebrowser/database/BookmarkRepository.h"
-#include "codebrowser/database/Database.h"
+#include "ktbrowser/database/BookmarkRepository.h"
+#include "ktbrowser/database/Database.h"
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QVariant>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 int64_t BookmarkRepository::addFolder(const QString& name, int64_t parentId) {
     QSqlDatabase& db = Database::instance().database();
@@ -143,4 +143,4 @@ QList<BookmarkItem> BookmarkRepository::searchBookmarks(const QString& searchQue
     return items;
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

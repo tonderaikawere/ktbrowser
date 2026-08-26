@@ -1,11 +1,11 @@
-#include "codebrowser/database/HistoryRepository.h"
-#include "codebrowser/database/Database.h"
+#include "ktbrowser/database/HistoryRepository.h"
+#include "ktbrowser/database/Database.h"
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QVariant>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 bool HistoryRepository::addOrUpdateHistory(const QString& url, const QString& title) {
     if (url.isEmpty() || url == "about:blank" || url.startsWith("chrome://") || url.startsWith("qrc://")) {
@@ -105,4 +105,4 @@ bool HistoryRepository::clearHistoryTimeRange(const QDateTime& start, const QDat
     return query.exec();
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

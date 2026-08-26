@@ -1,11 +1,11 @@
-#include "codebrowser/database/SettingsRepository.h"
-#include "codebrowser/database/Database.h"
+#include "ktbrowser/database/SettingsRepository.h"
+#include "ktbrowser/database/Database.h"
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QVariant>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 bool SettingsRepository::setSetting(const QString& key, const QString& value) {
     auto db = Database::instance().database();
@@ -59,4 +59,4 @@ void SettingsRepository::setTheme(const QString& themeName) {
     setSetting("theme", themeName);
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

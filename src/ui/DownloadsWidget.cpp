@@ -1,16 +1,16 @@
-#include "codebrowser/ui/DownloadsWidget.h"
-#include "codebrowser/downloads/DownloadManager.h"
+#include "ktbrowser/ui/DownloadsWidget.h"
+#include "ktbrowser/downloads/DownloadManager.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QPushButton>
 #include <QLabel>
 #include <QListWidget>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 DownloadsWidget::DownloadsWidget(QWidget* parent)
     : QDialog(parent) {
-    setWindowTitle("CodeBrowser Download Manager");
+    setWindowTitle("KT Browser Download Manager");
     resize(600, 400);
 
     setupUi();
@@ -57,4 +57,4 @@ void DownloadsWidget::refreshDownloads() {
     }
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

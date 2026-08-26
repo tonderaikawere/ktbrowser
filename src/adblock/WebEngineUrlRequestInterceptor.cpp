@@ -1,10 +1,10 @@
-#include "codebrowser/adblock/WebEngineUrlRequestInterceptor.h"
-#include "codebrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/adblock/WebEngineUrlRequestInterceptor.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
 WebEngineUrlRequestInterceptor::WebEngineUrlRequestInterceptor(QObject* parent)
     : QWebEngineUrlRequestInterceptor(parent) {
 }
@@ -21,4 +21,4 @@ void WebEngineUrlRequestInterceptor::interceptRequest(QWebEngineUrlRequestInfo& 
 }
 #endif
 
-} // namespace codebrowser
+} // namespace ktbrowser

@@ -1,5 +1,5 @@
-! CodeBrowser Default Built-in Filter List
-! Homepage: https://github.com/codebrowser/codebrowser
+! KT Browser Default Built-in Filter List
+! Homepage: https://github.com/ktbrowser/codebrowser
 ! Version: 1.0.0
 ! -------------------------------------------------------------
 ||doubleclick.net^

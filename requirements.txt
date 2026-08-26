@@ -1,0 +1,4 @@
+# KT Browser Python Dependencies
+PyQt6>=6.6.0
+PyQt6-WebEngine>=6.6.0
+PyInstaller>=6.0.0

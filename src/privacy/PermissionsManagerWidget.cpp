@@ -1,10 +1,10 @@
-#include "codebrowser/privacy/PermissionsManagerWidget.h"
+#include "ktbrowser/privacy/PermissionsManagerWidget.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QHeaderView>
 #include <QLabel>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 PermissionsManagerWidget::PermissionsManagerWidget(QWidget* parent)
     : QDialog(parent) {
@@ -44,4 +44,4 @@ void PermissionsManagerWidget::refreshPermissions() {
     // Populate permissions from PrivacyManager
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

@@ -3,7 +3,7 @@ echo Building KT Browser Native GUI with Google Chrome UI...
 set PATH=C:\msys64\ucrt64\bin;C:\msys64\ucrt64\lib\gcc\x86_64-w64-mingw32\16.2.0;%PATH%
 
 g++ -std=gnu++20 -mwindows -DUNICODE -D_UNICODE ^
-  -Iinclude -Iinclude/codebrowser ^
+  -Iinclude -Iinclude/ktbrowser ^
   -IC:/msys64/ucrt64/include/qt6 ^
   -IC:/msys64/ucrt64/include/qt6/QtCore ^
   -IC:/msys64/ucrt64/include/qt6/QtWidgets ^

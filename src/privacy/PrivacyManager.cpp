@@ -1,10 +1,10 @@
-#include "codebrowser/privacy/PrivacyManager.h"
-#include "codebrowser/database/Database.h"
+#include "ktbrowser/privacy/PrivacyManager.h"
+#include "ktbrowser/database/Database.h"
 #include <QSqlQuery>
 #include <QVariant>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 PrivacyManager& PrivacyManager::instance() {
     static PrivacyManager instance;
@@ -30,4 +30,4 @@ void PrivacyManager::setPermission(const QString& origin, PermissionType type, P
     query.exec();
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

@@ -1,7 +1,7 @@
-#include "codebrowser/browser/BrowserWindow.h"
-#include "codebrowser/database/Database.h"
-#include "codebrowser/adblock/AdBlockEngine.h"
-#include "codebrowser/adblock/WebEngineUrlRequestInterceptor.h"
+#include "ktbrowser/browser/BrowserWindow.h"
+#include "ktbrowser/database/Database.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/adblock/WebEngineUrlRequestInterceptor.h"
 
 #include <QApplication>
 #include <QIcon>
@@ -9,7 +9,7 @@
 #include <QPainter>
 #include <QRadialGradient>
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
 #include <QWebEngineProfile>
 #endif
 #include <QDebug>
@@ -54,24 +54,24 @@ int main(int argc, char* argv[]) {
     app.setWindowIcon(appIcon);
 
     // Initialize Database
-    if (!codebrowser::Database::instance().initialize()) {
+    if (!ktbrowser::Database::instance().initialize()) {
         qCritical() << "Failed to initialize SQLite Database!";
         return 1;
     }
 
     // Initialize Network AdBlock & Tracker Protection Engine
-    if (!codebrowser::AdBlockEngine::instance().initialize()) {
+    if (!ktbrowser::AdBlockEngine::instance().initialize()) {
         qWarning() << "AdBlock Engine failed to initialize completely.";
     }
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     // Attach Request Interceptor to WebEngine Profile
-    auto* interceptor = new codebrowser::WebEngineUrlRequestInterceptor(&app);
+    auto* interceptor = new ktbrowser::WebEngineUrlRequestInterceptor(&app);
     QWebEngineProfile::defaultProfile()->setUrlRequestInterceptor(interceptor);
 #endif
 
     // Show Native BrowserWindow
-    codebrowser::BrowserWindow window;
+    ktbrowser::BrowserWindow window;
     window.setWindowTitle("KT Browser by Kawerify Tech");
     window.setWindowIcon(appIcon);
     window.show();

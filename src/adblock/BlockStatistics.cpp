@@ -1,6 +1,6 @@
-#include "codebrowser/adblock/BlockStatistics.h"
+#include "ktbrowser/adblock/BlockStatistics.h"
 
-namespace codebrowser {
+namespace ktbrowser {
 
 BlockStatistics::BlockStatistics(QObject* parent)
     : QObject(parent) {}
@@ -48,4 +48,4 @@ void BlockStatistics::resetSessionStats() {
     emit statisticsUpdated();
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

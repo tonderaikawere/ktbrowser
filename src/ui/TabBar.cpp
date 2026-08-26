@@ -1,8 +1,8 @@
-#include "codebrowser/ui/TabBar.h"
+#include "ktbrowser/ui/TabBar.h"
 #include <QHBoxLayout>
 #include <QStyle>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 TabBar::TabBar(QWidget* parent)
     : QWidget(parent) {
@@ -142,4 +142,4 @@ int TabBar::count() const {
     return m_tabBar->count();
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

@@ -1,10 +1,10 @@
-#include "codebrowser/database/Database.h"
+#include "ktbrowser/database/Database.h"
 #include <QStandardPaths>
 #include <QDir>
 #include <QSqlError>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 Database& Database::instance() {
     static Database instance;
@@ -45,7 +45,7 @@ bool Database::initialize(const QString& dbPath) {
     }
 
     m_initialized = true;
-    qDebug() << "CodeBrowser database initialized successfully at:" << path;
+    qDebug() << "KT Browser database initialized successfully at:" << path;
     return true;
 }
 
@@ -138,4 +138,4 @@ bool Database::createTables() {
     return true;
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

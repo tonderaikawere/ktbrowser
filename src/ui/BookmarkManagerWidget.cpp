@@ -1,9 +1,9 @@
-#include "codebrowser/ui/BookmarkManagerWidget.h"
+#include "ktbrowser/ui/BookmarkManagerWidget.h"
 #include <QHBoxLayout>
 #include <QInputDialog>
 #include <QMessageBox>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 BookmarkManagerWidget::BookmarkManagerWidget(QWidget* parent)
     : QDialog(parent) {
@@ -158,4 +158,4 @@ void BookmarkManagerWidget::deleteSelected() {
     refreshBookmarks();
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

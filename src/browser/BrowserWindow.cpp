@@ -1,13 +1,13 @@
-#include "codebrowser/browser/BrowserWindow.h"
-#include "codebrowser/browser/NavigationController.h"
-#include "codebrowser/adblock/AdBlockEngine.h"
-#include "codebrowser/database/SettingsRepository.h"
-#include "codebrowser/database/BookmarkRepository.h"
-#include "codebrowser/privacy/PrivacyDashboard.h"
-#include "codebrowser/settings/SettingsWindow.h"
-#include "codebrowser/ui/BookmarkManagerWidget.h"
-#include "codebrowser/ui/HistoryManagerWidget.h"
-#include "codebrowser/ui/DownloadsWidget.h"
+#include "ktbrowser/browser/BrowserWindow.h"
+#include "ktbrowser/browser/NavigationController.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/database/SettingsRepository.h"
+#include "ktbrowser/database/BookmarkRepository.h"
+#include "ktbrowser/privacy/PrivacyDashboard.h"
+#include "ktbrowser/settings/SettingsWindow.h"
+#include "ktbrowser/ui/BookmarkManagerWidget.h"
+#include "ktbrowser/ui/HistoryManagerWidget.h"
+#include "ktbrowser/ui/DownloadsWidget.h"
 
 #include <QVBoxLayout>
 #include <QShortcut>
@@ -17,7 +17,7 @@
 #include <QMessageBox>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 BrowserWindow::BrowserWindow(QWidget* parent)
     : QMainWindow(parent) {
@@ -33,7 +33,7 @@ BrowserWindow::BrowserWindow(QWidget* parent)
     applyTheme(repo.theme());
 
     // Create default home tab
-    m_tabManager->createTab(QUrl("codebrowser://newtab"), true);
+    m_tabManager->createTab(QUrl("ktbrowser://newtab"), true);
 }
 
 void BrowserWindow::setupUi() {
@@ -148,7 +148,7 @@ void BrowserWindow::setupConnections() {
 
     // Keyboard Shortcuts
     new QShortcut(QKeySequence("Ctrl+T"), this, [this]() {
-        m_tabManager->createTab(QUrl("codebrowser://newtab"), true);
+        m_tabManager->createTab(QUrl("ktbrowser://newtab"), true);
     });
 
     new QShortcut(QKeySequence("Ctrl+W"), this, [this]() {
@@ -208,4 +208,4 @@ void BrowserWindow::keyPressEvent(QKeyEvent* event) {
     QMainWindow::keyPressEvent(event);
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

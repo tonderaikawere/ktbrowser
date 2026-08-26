@@ -1,12 +1,12 @@
-#include "codebrowser/ui/NewTabPage.h"
-#include "codebrowser/adblock/AdBlockEngine.h"
-#include "codebrowser/database/SettingsRepository.h"
-#include "codebrowser/browser/NavigationController.h"
+#include "ktbrowser/ui/NewTabPage.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/database/SettingsRepository.h"
+#include "ktbrowser/browser/NavigationController.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFrame>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 NewTabPage::NewTabPage(QWidget* parent)
     : QWidget(parent) {
@@ -175,7 +175,7 @@ void NewTabPage::setupUi() {
         {"Google Gemini", "✨", "https://gemini.google.com"},
         {"DeepSeek", "🐳", "https://chat.deepseek.com"},
         {"Kawerify Tech", "🌐", "https://kawerifytech.com"},
-        {"Show more", "+", "codebrowser://newtab"}
+        {"Show more", "+", "ktbrowser://newtab"}
     };
 
     for (const auto& sc : shortcuts) {
@@ -203,7 +203,7 @@ void NewTabPage::setupUi() {
         label->setAlignment(Qt::AlignCenter);
 
         connect(btn, &QPushButton::clicked, this, [this, url = sc.url]() {
-            if (url != "codebrowser://newtab") emit searchRequested(url);
+            if (url != "ktbrowser://newtab") emit searchRequested(url);
         });
 
         container->addWidget(btn, 0, Qt::AlignCenter);
@@ -287,4 +287,4 @@ void NewTabPage::refreshStats() {
     m_trackersBlockedLabel->setText(QString("Trackers Intercepted: %1").arg(stats.trackersBlocked()));
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

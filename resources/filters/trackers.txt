@@ -1,0 +1,44 @@
+[KT Browser Built-in Tracker Protection List]
+! Version: 1.0.0
+! Title: KT Browser Privacy & Anti-Tracker List
+! Homepage: https://kawerifytech.com
+
+! Analytics
+||google-analytics.com^
+||analytics.google.com^
+||googletagmanager.com^
+||mixpanel.com^
+||segment.io^
+||hotjar.com^
+||crazyegg.com^
+||fullstory.com^
+||clarity.ms^
+
+! Tracking Pixels
+||pixel.facebook.com^
+||connect.facebook.net^
+||analytics.tiktok.com^
+||t.co^
+
+! Fingerprinting & Session Replay
+||fpjs.io^
+||fingerprintjs.com^
+||device-id.com^
+||canvas-print.net^
+
+! Social Tracking
+||platform.twitter.com^
+||widgets.wp.com^
+||disqus.com^
+||addthis.com^
+||sharethis.com^
+
+! Ad Networks & Telemetry
+||adnxs.com^
+||rubiconproject.com^
+||pubmatic.com^
+||openx.net^
+||criteo.com^
+||outbrain.com^
+||taboola.com^
+||doubleclick.net^

@@ -1,11 +1,11 @@
-#include "codebrowser/adblock/FilterListManager.h"
+#include "ktbrowser/adblock/FilterListManager.h"
 #include <QFile>
 #include <QTextStream>
 #include <QStandardPaths>
 #include <QDir>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 FilterListManager::FilterListManager() {
     loadDefaultLists();
@@ -35,7 +35,7 @@ void FilterListManager::setFilterListEnabled(const QString& id, bool enabled) {
 void FilterListManager::loadDefaultLists() {
     FilterListInfo defaultEasyList;
     defaultEasyList.id = "easylist_default";
-    defaultEasyList.name = "CodeBrowser Built-in Protection List";
+    defaultEasyList.name = "KT Browser Built-in Protection List";
     defaultEasyList.url = "https://easylist.to/easylist/easylist.txt";
     defaultEasyList.enabled = true;
     
@@ -54,4 +54,4 @@ QStringList FilterListManager::readListRules(const QString& localPath) {
     return rules;
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

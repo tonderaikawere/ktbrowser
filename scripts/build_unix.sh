@@ -2,7 +2,7 @@
 set -e
 
 echo "==================================================="
-echo "Building CodeBrowser Native Linux / macOS Executable"
+echo "Building KT Browser Native Linux / macOS Executable"
 echo "==================================================="
 
 mkdir -p build
@@ -15,5 +15,5 @@ echo "Running Unit Tests..."
 ctest --output-on-failure
 
 echo "==================================================="
-echo "CodeBrowser built successfully!"
+echo "KT Browser built successfully!"
 echo "==================================================="

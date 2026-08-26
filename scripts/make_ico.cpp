@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
         painter.setBrush(QColor(35, 26, 46));
         painter.drawEllipse(96, 96, 64, 64);
     }
-    pixmap.save("C:/Users/Tonde/AppData/Local/Programs/CodeBrowser/codebrowser.ico");
-    pixmap.save("C:/Users/Tonde/AppData/Local/Programs/CodeBrowser/codebrowser.png");
+    pixmap.save("C:/Users/Tonde/AppData/Local/Programs/KT Browser/ktbrowser.ico");
+    pixmap.save("C:/Users/Tonde/AppData/Local/Programs/KT Browser/ktbrowser.png");
     return 0;
 }

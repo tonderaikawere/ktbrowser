@@ -1,12 +1,12 @@
-#include "codebrowser/database/Database.h"
-#include "codebrowser/database/HistoryRepository.h"
-#include "codebrowser/database/BookmarkRepository.h"
-#include "codebrowser/database/SettingsRepository.h"
+#include "ktbrowser/database/Database.h"
+#include "ktbrowser/database/HistoryRepository.h"
+#include "ktbrowser/database/BookmarkRepository.h"
+#include "ktbrowser/database/SettingsRepository.h"
 #include <QCoreApplication>
 #include <iostream>
 #include <cassert>
 
-using namespace codebrowser;
+using namespace ktbrowser;
 
 int main(int argc, char* argv[]) {
     QCoreApplication app(argc, argv);

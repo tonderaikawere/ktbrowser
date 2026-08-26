@@ -1,10 +1,10 @@
-#include "codebrowser/browser/BrowserTab.h"
-#include "codebrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/browser/BrowserTab.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
 #include <QNetworkAccessManager>
 #include <QNetworkRequest>
 #include <QNetworkReply>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 BrowserTab::BrowserTab(QWidget* parent)
     : QWidget(parent) {
@@ -19,7 +19,7 @@ void BrowserTab::setupUi() {
     m_newTabPage = new NewTabPage(this);
     m_layout->addWidget(m_newTabPage);
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     m_webView = new QWebEngineView(this);
     m_layout->addWidget(m_webView);
     m_webView->hide();
@@ -69,7 +69,7 @@ void BrowserTab::setupUi() {
 }
 
 QUrl BrowserTab::url() const {
-    return m_isNtp ? QUrl("codebrowser://newtab") : m_url;
+    return m_isNtp ? QUrl("ktbrowser://newtab") : m_url;
 }
 
 QString BrowserTab::title() const {
@@ -83,7 +83,7 @@ QIcon BrowserTab::icon() const {
 void BrowserTab::loadUrl(const QUrl& url) {
     if (!url.isValid()) return;
 
-    if (url.toString() == "codebrowser://newtab") {
+    if (url.toString() == "ktbrowser://newtab") {
         loadNewTabPage();
         return;
     }
@@ -92,7 +92,7 @@ void BrowserTab::loadUrl(const QUrl& url) {
     m_url = url;
     m_newTabPage->hide();
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     m_webView->show();
     m_webView->load(url);
 #else
@@ -106,7 +106,7 @@ void BrowserTab::loadUrl(const QUrl& url) {
     
     QString reason;
     if (AdBlockEngine::instance().shouldBlockRequest(url, url, &reason)) {
-        m_textBrowser->setHtml("<h2 style='color:#e74c3c;'>🛡️ Network Request Blocked by CodeBrowser Privacy Shield</h2>"
+        m_textBrowser->setHtml("<h2 style='color:#e74c3c;'>🛡️ Network Request Blocked by KT Browser Privacy Shield</h2>"
                                "<p>Target URL: " + url.toString() + "</p>"
                                "<p>Reason: " + reason + "</p>");
         m_isLoading = false;
@@ -133,10 +133,10 @@ void BrowserTab::loadUrl(const QUrl& url) {
 
 void BrowserTab::loadNewTabPage() {
     m_isNtp = true;
-    m_url = QUrl("codebrowser://newtab");
+    m_url = QUrl("ktbrowser://newtab");
     m_title = "New Tab";
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     if (m_webView) m_webView->hide();
 #else
     if (m_textBrowser) m_textBrowser->hide();
@@ -148,7 +148,7 @@ void BrowserTab::loadNewTabPage() {
 }
 
 bool BrowserTab::canGoBack() const {
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     return m_webView && m_webView->history() ? m_webView->history()->canGoBack() : false;
 #else
     return m_textBrowser ? m_textBrowser->historyTitle(-1).length() > 0 : false;
@@ -156,7 +156,7 @@ bool BrowserTab::canGoBack() const {
 }
 
 bool BrowserTab::canGoForward() const {
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     return m_webView && m_webView->history() ? m_webView->history()->canGoForward() : false;
 #else
     return m_textBrowser ? m_textBrowser->historyTitle(1).length() > 0 : false;
@@ -164,7 +164,7 @@ bool BrowserTab::canGoForward() const {
 }
 
 void BrowserTab::back() {
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     if (m_webView) m_webView->back();
 #else
     if (m_textBrowser) m_textBrowser->backward();
@@ -172,7 +172,7 @@ void BrowserTab::back() {
 }
 
 void BrowserTab::forward() {
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     if (m_webView) m_webView->forward();
 #else
     if (m_textBrowser) m_textBrowser->forward();
@@ -180,7 +180,7 @@ void BrowserTab::forward() {
 }
 
 void BrowserTab::reload() {
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     if (m_webView) m_webView->reload();
 #else
     if (!m_url.isEmpty()) loadUrl(m_url);
@@ -188,9 +188,9 @@ void BrowserTab::reload() {
 }
 
 void BrowserTab::stop() {
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     if (m_webView) m_webView->stop();
 #endif
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

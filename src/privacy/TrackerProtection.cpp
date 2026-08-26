@@ -1,6 +1,6 @@
-#include "codebrowser/privacy/TrackerProtection.h"
+#include "ktbrowser/privacy/TrackerProtection.h"
 
-namespace codebrowser {
+namespace ktbrowser {
 
 TrackerProtection::TrackerProtection() {
     loadCategoryData();
@@ -77,4 +77,4 @@ TrackerCategory TrackerProtection::classifyUrl(const QUrl& url) const {
     return cat;
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

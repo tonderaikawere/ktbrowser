@@ -1,10 +1,10 @@
-#include "codebrowser/ui/HistoryManagerWidget.h"
+#include "ktbrowser/ui/HistoryManagerWidget.h"
 #include <QHBoxLayout>
 #include <QHeaderView>
 #include <QMessageBox>
 #include <QDateTime>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 HistoryManagerWidget::HistoryManagerWidget(QWidget* parent)
     : QDialog(parent) {
@@ -134,4 +134,4 @@ void HistoryManagerWidget::clearHistoryByTime() {
     refreshHistory();
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

@@ -15,7 +15,10 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/include/codebrowser
 )
 
-set(PROJECT_RESOURCES resources/codebrowser.qrc)
+set(PROJECT_RESOURCES resources/ktbrowser.qrc)
+if (WIN32)
+    list(APPEND PROJECT_RESOURCES resources/ktbrowser.rc)
+endif()
 
 set(PROJECT_SOURCES
     src/main.cpp
@@ -61,43 +64,43 @@ set(PROJECT_SOURCES
 )
 
 set(PROJECT_HEADERS
-    include/codebrowser/browser/BrowserWindow.h
-    include/codebrowser/browser/BrowserTab.h
-    include/codebrowser/browser/TabManager.h
-    include/codebrowser/browser/NavigationController.h
+    include/ktbrowser/browser/BrowserWindow.h
+    include/ktbrowser/browser/BrowserTab.h
+    include/ktbrowser/browser/TabManager.h
+    include/ktbrowser/browser/NavigationController.h
     
-    include/codebrowser/ui/AddressBar.h
-    include/codebrowser/ui/BrowserToolbar.h
-    include/codebrowser/ui/TabBar.h
-    include/codebrowser/ui/NewTabPage.h
-    include/codebrowser/ui/BookmarkManagerWidget.h
-    include/codebrowser/ui/HistoryManagerWidget.h
-    include/codebrowser/ui/DownloadsWidget.h
+    include/ktbrowser/ui/AddressBar.h
+    include/ktbrowser/ui/BrowserToolbar.h
+    include/ktbrowser/ui/TabBar.h
+    include/ktbrowser/ui/NewTabPage.h
+    include/ktbrowser/ui/BookmarkManagerWidget.h
+    include/ktbrowser/ui/HistoryManagerWidget.h
+    include/ktbrowser/ui/DownloadsWidget.h
     
-    include/codebrowser/adblock/AdBlockEngine.h
-    include/codebrowser/adblock/FilterParser.h
-    include/codebrowser/adblock/FilterRule.h
-    include/codebrowser/adblock/FilterListManager.h
-    include/codebrowser/adblock/BlockStatistics.h
-    include/codebrowser/adblock/WebEngineUrlRequestInterceptor.h
+    include/ktbrowser/adblock/AdBlockEngine.h
+    include/ktbrowser/adblock/FilterParser.h
+    include/ktbrowser/adblock/FilterRule.h
+    include/ktbrowser/adblock/FilterListManager.h
+    include/ktbrowser/adblock/BlockStatistics.h
+    include/ktbrowser/adblock/WebEngineUrlRequestInterceptor.h
     
-    include/codebrowser/privacy/PrivacyManager.h
-    include/codebrowser/privacy/PrivacyDashboard.h
-    include/codebrowser/privacy/TrackerProtection.h
-    include/codebrowser/privacy/PermissionsManagerWidget.h
+    include/ktbrowser/privacy/PrivacyManager.h
+    include/ktbrowser/privacy/PrivacyDashboard.h
+    include/ktbrowser/privacy/TrackerProtection.h
+    include/ktbrowser/privacy/PermissionsManagerWidget.h
     
-    include/codebrowser/database/Database.h
-    include/codebrowser/database/HistoryRepository.h
-    include/codebrowser/database/BookmarkRepository.h
-    include/codebrowser/database/SettingsRepository.h
+    include/ktbrowser/database/Database.h
+    include/ktbrowser/database/HistoryRepository.h
+    include/ktbrowser/database/BookmarkRepository.h
+    include/ktbrowser/database/SettingsRepository.h
     
-    include/codebrowser/downloads/DownloadManager.h
-    include/codebrowser/settings/SettingsWindow.h
+    include/ktbrowser/downloads/DownloadManager.h
+    include/ktbrowser/settings/SettingsWindow.h
 )
 
 set(WEBENGINE_LIBS "")
 if (Qt6WebEngineWidgets_FOUND)
-    add_compile_definitions(CODEBROWSER_HAS_WEBENGINE=1)
+    add_compile_definitions(KTBROWSER_HAS_WEBENGINE=1)
     set(WEBENGINE_LIBS Qt6::WebEngineWidgets)
 endif()
 
@@ -126,8 +129,8 @@ add_executable(test_adblock
     src/adblock/FilterRule.cpp
     src/adblock/FilterListManager.cpp
     src/adblock/BlockStatistics.cpp
-    include/codebrowser/adblock/AdBlockEngine.h
-    include/codebrowser/adblock/BlockStatistics.h
+    include/ktbrowser/adblock/AdBlockEngine.h
+    include/ktbrowser/adblock/BlockStatistics.h
 )
 target_link_libraries(test_adblock PRIVATE Qt6::Core Qt6::Network)
 add_test(NAME AdBlockTest COMMAND test_adblock)
@@ -141,6 +144,52 @@ add_executable(test_database
 )
 target_link_libraries(test_database PRIVATE Qt6::Core Qt6::Sql)
 add_test(NAME DatabaseTest COMMAND test_database)
+
+add_executable(test_privacy
+    tests/privacy/TestPrivacy.cpp
+    src/privacy/PrivacyManager.cpp
+    src/privacy/TrackerProtection.cpp
+)
+target_link_libraries(test_privacy PRIVATE Qt6::Core Qt6::Network)
+add_test(NAME PrivacyTest COMMAND test_privacy)
+
+add_executable(test_downloads
+    tests/downloads/TestDownloads.cpp
+    src/downloads/DownloadManager.cpp
+)
+target_link_libraries(test_downloads PRIVATE Qt6::Core)
+add_test(NAME DownloadsTest COMMAND test_downloads)
+
+add_executable(test_browser
+    tests/browser/TestBrowser.cpp
+    src/browser/NavigationController.cpp
+    src/database/Database.cpp
+    src/database/SettingsRepository.cpp
+)
+target_link_libraries(test_browser PRIVATE Qt6::Core Qt6::Sql)
+add_test(NAME BrowserTest COMMAND test_browser)
+
+add_executable(test_settings
+    tests/settings/TestSettings.cpp
+    src/database/Database.cpp
+    src/database/SettingsRepository.cpp
+)
+target_link_libraries(test_settings PRIVATE Qt6::Core Qt6::Sql)
+add_test(NAME SettingsTest COMMAND test_settings)
+
+add_executable(test_ui
+    tests/ui/TestUI.cpp
+    src/ui/AddressBar.cpp
+    src/ui/BrowserToolbar.cpp
+    src/ui/TabBar.cpp
+    src/ui/NewTabPage.cpp
+    src/database/Database.cpp
+    src/database/SettingsRepository.cpp
+    src/browser/NavigationController.cpp
+    src/adblock/BlockStatistics.cpp
+)
+target_link_libraries(test_ui PRIVATE Qt6::Core Qt6::Widgets Qt6::Sql Qt6::Network)
+add_test(NAME UITest COMMAND test_ui)
 
 # CPack Installer Configuration
 set(CPACK_PACKAGE_NAME "KTBrowser")

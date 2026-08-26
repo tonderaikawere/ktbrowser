@@ -1,13 +1,13 @@
-#include "codebrowser/browser/TabManager.h"
-#include "codebrowser/database/HistoryRepository.h"
-#include "codebrowser/downloads/DownloadManager.h"
+#include "ktbrowser/browser/TabManager.h"
+#include "ktbrowser/database/HistoryRepository.h"
+#include "ktbrowser/downloads/DownloadManager.h"
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
 #include <QWebEngineProfile>
 #endif
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 TabManager::TabManager(TabBar* tabBar, QStackedWidget* stackedWidget, QObject* parent)
     : QObject(parent), m_tabBar(tabBar), m_stackedWidget(stackedWidget) {
@@ -15,10 +15,10 @@ TabManager::TabManager(TabBar* tabBar, QStackedWidget* stackedWidget, QObject* p
     connect(m_tabBar, &TabBar::currentChanged, this, &TabManager::switchToTab);
     connect(m_tabBar, &TabBar::closeTabRequested, this, &TabManager::closeTab);
     connect(m_tabBar, &TabBar::newTabRequested, this, [this]() {
-        createTab(QUrl("codebrowser://newtab"), true);
+        createTab(QUrl("ktbrowser://newtab"), true);
     });
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
     // Wire global WebEngine profile downloads
     connect(QWebEngineProfile::defaultProfile(), &QWebEngineProfile::downloadRequested,
             &DownloadManager::instance(), &DownloadManager::manageDownload);
@@ -36,7 +36,7 @@ BrowserTab* TabManager::createTab(const QUrl& url, bool makeCurrent) {
 
     connectTabSignals(tab, tabIndex);
 
-    if (url.isValid() && url.toString() != "codebrowser://newtab") {
+    if (url.isValid() && url.toString() != "ktbrowser://newtab") {
         tab->loadUrl(url);
     } else {
         tab->loadNewTabPage();
@@ -90,7 +90,7 @@ void TabManager::closeTab(int index) {
     delete tab;
 
     if (m_tabs.isEmpty()) {
-        createTab(QUrl("codebrowser://newtab"), true);
+        createTab(QUrl("ktbrowser://newtab"), true);
     } else {
         int newIdx = qMin(index, m_tabs.size() - 1);
         switchToTab(newIdx);
@@ -137,4 +137,4 @@ BrowserTab* TabManager::tabAt(int index) const {
     return (index >= 0 && index < m_tabs.size()) ? m_tabs.at(index) : nullptr;
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

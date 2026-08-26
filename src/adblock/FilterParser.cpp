@@ -1,7 +1,7 @@
-#include "codebrowser/adblock/FilterParser.h"
+#include "ktbrowser/adblock/FilterParser.h"
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 QList<std::shared_ptr<FilterRule>> FilterParser::parseLines(const QStringList& lines) {
     QList<std::shared_ptr<FilterRule>> rules;
@@ -46,4 +46,4 @@ std::shared_ptr<FilterRule> FilterParser::parseLine(const QString& rawLine) {
     return std::make_shared<FilterRule>(type, line, isRegex);
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

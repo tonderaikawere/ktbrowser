@@ -1,16 +1,16 @@
-#include "codebrowser/downloads/DownloadManager.h"
+#include "ktbrowser/downloads/DownloadManager.h"
 #include <QStandardPaths>
 #include <QDir>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 DownloadManager& DownloadManager::instance() {
     static DownloadManager instance;
     return instance;
 }
 
-#ifdef CODEBROWSER_HAS_WEBENGINE
+#ifdef KTBROWSER_HAS_WEBENGINE
 void DownloadManager::manageDownload(QWebEngineDownloadRequest* download) {
     if (!download) return;
 
@@ -57,4 +57,4 @@ QList<DownloadItem> DownloadManager::activeDownloads() const {
     return m_downloads;
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

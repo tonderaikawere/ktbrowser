@@ -1,7 +1,7 @@
-#include "codebrowser/ui/BrowserToolbar.h"
+#include "ktbrowser/ui/BrowserToolbar.h"
 #include <QStyle>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 BrowserToolbar::BrowserToolbar(QWidget* parent)
     : QWidget(parent) {
@@ -147,4 +147,4 @@ void BrowserToolbar::setCanGoForward(bool canGoForward) {
     m_forwardBtn->setEnabled(canGoForward);
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

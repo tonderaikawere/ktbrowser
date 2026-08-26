@@ -1,6 +1,6 @@
-#include "codebrowser/settings/SettingsWindow.h"
-#include "codebrowser/database/SettingsRepository.h"
-#include "codebrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/settings/SettingsWindow.h"
+#include "ktbrowser/database/SettingsRepository.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFormLayout>
@@ -8,11 +8,11 @@
 #include <QLabel>
 #include <QPushButton>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 SettingsWindow::SettingsWindow(QWidget* parent)
     : QDialog(parent) {
-    setWindowTitle("CodeBrowser Settings");
+    setWindowTitle("KT Browser Settings");
     setMinimumSize(540, 420);
     setWindowModality(Qt::ApplicationModal);
 
@@ -116,4 +116,4 @@ void SettingsWindow::saveSettings() {
     repo.setTheme(m_themeCombo->currentText().toLower());
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

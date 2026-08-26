@@ -1,10 +1,10 @@
-#include "codebrowser/adblock/AdBlockEngine.h"
-#include "codebrowser/adblock/FilterParser.h"
-#include "codebrowser/adblock/FilterRule.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/adblock/FilterParser.h"
+#include "ktbrowser/adblock/FilterRule.h"
 #include <iostream>
 #include <cassert>
 
-using namespace codebrowser;
+using namespace ktbrowser;
 
 void testFilterRuleMatching() {
     FilterRule rule(RuleType::BlockDomain, "||doubleclick.net^");

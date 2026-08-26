@@ -1,7 +1,8 @@
-#include "codebrowser/ui/AddressBar.h"
+#include "ktbrowser/ui/AddressBar.h"
 #include <QHBoxLayout>
+#include <QToolButton>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 AddressBar::AddressBar(QWidget* parent)
     : QWidget(parent) {
@@ -61,7 +62,7 @@ void AddressBar::setupUi() {
 }
 
 void AddressBar::setUrl(const QUrl& url) {
-    if (url.toString() == "codebrowser://newtab" || url.toString() == "about:blank") {
+    if (url.toString() == "ktbrowser://newtab" || url.toString() == "about:blank") {
         m_lineEdit->clear();
         m_searchIcon->setText(" G ");
     } else {
@@ -74,4 +75,4 @@ QString AddressBar::text() const {
     return m_lineEdit->text();
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

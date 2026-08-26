@@ -1,9 +1,9 @@
-#include "codebrowser/adblock/AdBlockEngine.h"
-#include "codebrowser/adblock/FilterParser.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/adblock/FilterParser.h"
 #include <mutex>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 AdBlockEngine& AdBlockEngine::instance() {
     static AdBlockEngine instance;
@@ -174,4 +174,4 @@ void AdBlockEngine::reloadRules() {
     // Reload rules logic
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

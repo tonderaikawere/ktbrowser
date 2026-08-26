@@ -1,5 +1,5 @@
-#include "codebrowser/privacy/PrivacyDashboard.h"
-#include "codebrowser/adblock/AdBlockEngine.h"
+#include "ktbrowser/privacy/PrivacyDashboard.h"
+#include "ktbrowser/adblock/AdBlockEngine.h"
 #include <QGroupBox>
 #include <QFormLayout>
 #include <QHBoxLayout>
@@ -7,11 +7,11 @@
 #include <QStyle>
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 PrivacyDashboard::PrivacyDashboard(QWidget* parent)
     : QDialog(parent) {
-    setWindowTitle("CodeBrowser Privacy Protection Dashboard");
+    setWindowTitle("KT Browser Privacy Protection Dashboard");
     setMinimumSize(540, 520);
     setWindowModality(Qt::ApplicationModal);
     
@@ -127,4 +127,4 @@ void PrivacyDashboard::refreshStatistics() {
     }
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

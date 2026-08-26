@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>filters/easylist.txt</file>
+        <file>filters/trackers.txt</file>
+        <file>ktbrowser.ico</file>
+        <file>ktbrowser.png</file>
+    </qresource>
+</RCC>
+

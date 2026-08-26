@@ -1,17 +1,17 @@
-#include "codebrowser/browser/NavigationController.h"
+#include "ktbrowser/browser/NavigationController.h"
 #include <QUrlQuery>
 #include <QRegularExpression>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 QUrl NavigationController::parseInput(const QString& input, const QString& searchEngine, const QString& customSearchUrl) {
     QString trimmed = input.trimmed();
-    if (trimmed.isEmpty()) return QUrl("codebrowser://newtab");
+    if (trimmed.isEmpty()) return QUrl("ktbrowser://newtab");
 
-    // Explicit codebrowser:// protocol links
-    if (trimmed.startsWith("codebrowser://")) {
-        if (trimmed == "codebrowser://newtab" || trimmed == "codebrowser://home") {
-            return QUrl("codebrowser://newtab");
+    // Explicit ktbrowser:// protocol links
+    if (trimmed.startsWith("ktbrowser://")) {
+        if (trimmed == "ktbrowser://newtab" || trimmed == "ktbrowser://home") {
+            return QUrl("ktbrowser://newtab");
         }
     }
 
@@ -70,4 +70,4 @@ QUrl NavigationController::buildSearchUrl(const QString& query, const QString& e
     return QUrl("https://www.google.com/search?q=" + encodedQuery);
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser

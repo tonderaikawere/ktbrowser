@@ -321,7 +321,7 @@ class KTBrowserWindow(QMainWindow):
         if url:
             view.setUrl(QUrl(url))
         else:
-            view.setHtml(NTP_HTML, QUrl("codebrowser://newtab"))
+            view.setHtml(NTP_HTML, QUrl("ktbrowser://newtab"))
 
         index = self.tabs.addTab(view, "New Tab")
         self.tabs.setCurrentIndex(index)
@@ -336,7 +336,7 @@ class KTBrowserWindow(QMainWindow):
     def on_url_changed(self, url, view):
         if view == self.current_view():
             url_str = url.toString()
-            if url_str == "codebrowser://newtab" or url_str == "about:blank":
+            if url_str == "ktbrowser://newtab" or url_str == "about:blank":
                 self.address_bar.setText("")
             else:
                 self.address_bar.setText(url_str)

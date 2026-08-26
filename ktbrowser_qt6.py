@@ -64,7 +64,7 @@ def init_db():
         pass
 
 def record_history(url, title):
-    if not url or url.startswith("codebrowser://") or url.startswith("about:"):
+    if not url or url.startswith("ktbrowser://") or url.startswith("about:"):
         return
     try:
         conn = sqlite3.connect(DB_PATH)
@@ -96,7 +96,7 @@ def load_settings():
         except Exception:
             pass
     return {
-        "general": {"homepage": "codebrowser://newtab", "search_engine": "Google"},
+        "general": {"homepage": "ktbrowser://newtab", "search_engine": "Google"},
         "privacy": {"do_not_track": True, "ad_blocker": True}
     }
 
@@ -651,7 +651,7 @@ class KTBrowserWindow(QMainWindow):
         if url:
             view.setUrl(QUrl(url))
         else:
-            view.setHtml(NTP_HTML, QUrl("codebrowser://newtab"))
+            view.setHtml(NTP_HTML, QUrl("ktbrowser://newtab"))
 
         stack_index = self.web_stack.addWidget(view)
         tab_index = self.tab_bar.addTab("New Tab")
@@ -686,7 +686,7 @@ class KTBrowserWindow(QMainWindow):
             if view:
                 qurl = view.url()
                 url_str = qurl.toString()
-                if url_str == "codebrowser://newtab" or url_str == "about:blank":
+                if url_str == "ktbrowser://newtab" or url_str == "about:blank":
                     self.address_bar.setText("")
                     self.security_icon.setText("G")
                     self.security_icon.setStyleSheet("color: #ea4335; font-weight: bold; font-size: 14px;")
@@ -705,7 +705,7 @@ class KTBrowserWindow(QMainWindow):
     def on_url_changed(self, url, view):
         if view == self.current_view():
             url_str = url.toString()
-            if url_str == "codebrowser://newtab" or url_str == "about:blank":
+            if url_str == "ktbrowser://newtab" or url_str == "about:blank":
                 self.address_bar.setText("")
                 self.security_icon.setText("G")
                 self.security_icon.setStyleSheet("color: #ea4335; font-weight: bold; font-size: 14px;")

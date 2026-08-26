@@ -4,7 +4,7 @@ set PATH=C:\Users\Tonde\AppData\Local\Programs\KTCompiler;C:\Users\Tonde\AppData
 set GCC_EXEC_PREFIX=C:\Users\Tonde\AppData\Local\Programs\KTCompiler\bin\
 
 g++ -std=gnu++20 -mwindows -DUNICODE -D_UNICODE ^
-  -Iinclude -Iinclude/codebrowser ^
+  -Iinclude -Iinclude/ktbrowser ^
   -IC:/msys64/ucrt64/include/qt6 ^
   -IC:/msys64/ucrt64/include/qt6/QtCore ^
   -IC:/msys64/ucrt64/include/qt6/QtWidgets ^

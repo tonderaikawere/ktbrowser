@@ -1,7 +1,7 @@
-#include "codebrowser/adblock/FilterRule.h"
+#include "ktbrowser/adblock/FilterRule.h"
 #include <QDebug>
 
-namespace codebrowser {
+namespace ktbrowser {
 
 FilterRule::FilterRule(RuleType type, const QString& pattern, bool isRegex)
     : m_type(type), m_rawPattern(pattern), m_isRegex(isRegex) {
@@ -57,4 +57,4 @@ bool FilterRule::matches(const QUrl& requestUrl, const QUrl& firstPartyUrl) cons
     return false;
 }
 
-} // namespace codebrowser
+} // namespace ktbrowser
