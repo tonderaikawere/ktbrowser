@@ -1,5 +1,5 @@
 @echo off
-echo Building KT Browser with Google Chrome UI...
+echo Building KT Browser by Kawerify Tech...
 set PATH=C:\Users\Tonde\AppData\Local\Programs\KTCompiler;C:\Users\Tonde\AppData\Local\Programs\KTCompiler\bin;%PATH%
 set GCC_EXEC_PREFIX=C:\Users\Tonde\AppData\Local\Programs\KTCompiler\bin\
 
@@ -23,6 +23,7 @@ g++ -std=gnu++20 -mwindows -DUNICODE -D_UNICODE ^
   src/ui/BookmarkManagerWidget.cpp ^
   src/ui/HistoryManagerWidget.cpp ^
   src/ui/DownloadsWidget.cpp ^
+  src/ui/SettingsPage.cpp ^
   src/adblock/AdBlockEngine.cpp ^
   src/adblock/FilterParser.cpp ^
   src/adblock/FilterRule.cpp ^

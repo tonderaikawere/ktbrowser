@@ -26,7 +26,7 @@ void AddressBar::setupUi() {
     )");
 
     m_lineEdit = new QLineEdit(this);
-    m_lineEdit->setPlaceholderText("Ask Google or type a URL");
+    m_lineEdit->setPlaceholderText("Search with KT Browser or enter URL");
     m_lineEdit->setStyleSheet(R"(
         QLineEdit {
             background-color: #402421;

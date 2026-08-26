@@ -25,6 +25,7 @@ public:
 signals:
     void newTabRequested();
     void tabCloseRequested(int index);
+    void closeTabRequested(int index);
     void currentChanged(int index);
     void tabMoved(int from, int to);
 

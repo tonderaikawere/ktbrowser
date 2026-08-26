@@ -1,5 +1,5 @@
 @echo off
-echo Building KT Browser Native GUI with Google Chrome UI...
+echo Building KT Browser Native GUI by Kawerify Tech...
 set PATH=C:\msys64\ucrt64\bin;C:\msys64\ucrt64\lib\gcc\x86_64-w64-mingw32\16.2.0;%PATH%
 
 g++ -std=gnu++20 -mwindows -DUNICODE -D_UNICODE ^
@@ -22,6 +22,7 @@ g++ -std=gnu++20 -mwindows -DUNICODE -D_UNICODE ^
   src/ui/BookmarkManagerWidget.cpp ^
   src/ui/HistoryManagerWidget.cpp ^
   src/ui/DownloadsWidget.cpp ^
+  src/ui/SettingsPage.cpp ^
   src/adblock/AdBlockEngine.cpp ^
   src/adblock/FilterParser.cpp ^
   src/adblock/FilterRule.cpp ^

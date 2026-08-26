@@ -89,14 +89,14 @@ void NewTabPage::setupUi() {
     mainLayout->setContentsMargins(40, 10, 40, 30);
     mainLayout->setSpacing(20);
 
-    // Giant Google Center Logo
+    // Giant KT Browser Center Logo
     auto* logoLabel = new QLabel(this);
-    logoLabel->setText("<h1 style='font-size: 80px; font-family: Segoe UI, sans-serif; font-weight: 700; color: #ffffff; margin: 5px 0;'>Google</h1>");
+    logoLabel->setText("<h1 style='font-size: 80px; font-family: Segoe UI, sans-serif; font-weight: 700; color: #ffffff; margin: 5px 0;'>KT Browser</h1>");
     logoLabel->setTextFormat(Qt::RichText);
     logoLabel->setAlignment(Qt::AlignCenter);
     mainLayout->addWidget(logoLabel);
 
-    // Search Box Bar (+ Ask Google | Mic | Lens | AI Mode)
+    // Search Box Bar (+ Search with KT Browser | Mic | Lens | AI Mode)
     auto* searchFrame = new QFrame(this);
     searchFrame->setFixedWidth(680);
     searchFrame->setFixedHeight(50);
@@ -115,7 +115,7 @@ void NewTabPage::setupUi() {
     plusLabel->setStyleSheet("color: #5f6368; font-size: 20px; font-weight: bold; background: transparent;");
 
     m_searchEdit = new QLineEdit(searchFrame);
-    m_searchEdit->setPlaceholderText("Ask Google");
+    m_searchEdit->setPlaceholderText("Search with KT Browser or enter URL");
     m_searchEdit->setStyleSheet(R"(
         QLineEdit {
             background: transparent;
@@ -259,7 +259,7 @@ void NewTabPage::setupUi() {
     bottomLayout->addWidget(m_adsBlockedLabel);
     bottomLayout->addWidget(m_trackersBlockedLabel);
 
-    auto* customizeBtn = new QPushButton("✏️ Customize Chrome", this);
+    auto* customizeBtn = new QPushButton("✏️ Customize KT Browser", this);
     customizeBtn->setCursor(Qt::PointingHandCursor);
     customizeBtn->setStyleSheet(R"(
         QPushButton {

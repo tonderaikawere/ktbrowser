@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/)
 [![Developer](https://img.shields.io/badge/Developer-Kawerify%20Tech-orange.svg)](https://kawerifytech.com)
 
-**KT Browser** (short for **Kawerify Tech Browser**) is a fast, lightweight, security-first web browser built with a pixel-identical **Google Chrome design**, powered by Qt 6 WebEngine and Chromium core.
+**KT Browser** (short for **Kawerify Tech Browser**) is a fast, lightweight, security-first web browser built with a pixel-identical **KT Browser design by Kawerify Tech**, powered by Qt 6 WebEngine and Chromium core.
 
 Created and maintained by **Kawerify Tech** ([https://kawerifytech.com](https://kawerifytech.com) | **@kawerifytech** on all social media platforms).
 
@@ -14,7 +14,7 @@ Created and maintained by **Kawerify Tech** ([https://kawerifytech.com](https://
 
 ## ✨ Features
 
-- **🎨 Classic Google Chrome Theme**: Pixel-identical light blue tab strip (`#4a80cb`), soft toolbar (`#dee1e6`), white omnibox search pill, and custom Google New Tab Page.
+- **🎨 KT Browser Custom Theme**: Pixel-identical light blue tab strip (`#4a80cb`), soft toolbar (`#dee1e6`), white omnibox search pill, and custom Google New Tab Page.
 - **⚡ High Performance & Multi-Tab Engine**: Smooth tab switching, fast page rendering, and low memory consumption powered by Qt 6 WebEngine.
 - **🛡️ Cybersecurity & Privacy Protection**: Built-in tracker and ad interceptor (`NetworkAdBlockInterceptor`), Do-Not-Track headers, and local sandbox isolation.
 - **🔍 Omnibox Search & Direct Navigation**: Smart address bar supporting instant Google searches, HTTPS normalization, security indicators (`🔒`/`🌐`/`G`), and instant bookmarking.

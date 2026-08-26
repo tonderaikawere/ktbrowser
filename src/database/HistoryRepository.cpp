@@ -8,7 +8,7 @@
 namespace ktbrowser {
 
 bool HistoryRepository::addOrUpdateHistory(const QString& url, const QString& title) {
-    if (url.isEmpty() || url == "about:blank" || url.startsWith("chrome://") || url.startsWith("qrc://")) {
+    if (url.isEmpty() || url == "about:blank" || url.startsWith("ktbrowser://") || url.startsWith("qrc://")) {
         return false;
     }
 

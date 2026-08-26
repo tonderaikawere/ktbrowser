@@ -37,6 +37,7 @@ set(PROJECT_SOURCES
     src/ui/BookmarkManagerWidget.cpp
     src/ui/HistoryManagerWidget.cpp
     src/ui/DownloadsWidget.cpp
+    src/ui/SettingsPage.cpp
     
     # AdBlock & Tracking Interception
     src/adblock/AdBlockEngine.cpp

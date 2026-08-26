@@ -11,7 +11,7 @@ from PySide6.QtWidgets import (
 from PySide6.QtWebEngineWidgets import QWebEngineView
 from PySide6.QtWebEngineCore import QWebEngineProfile, QWebEngineUrlRequestInterceptor
 
-# --- High-Resolution Chrome-Style Icon Generator ---
+# --- High-Resolution KT Browser Icon Generator ---
 def create_app_icon():
     pixmap = QPixmap(256, 256)
     pixmap.fill(Qt.transparent)
@@ -38,7 +38,7 @@ def create_app_icon():
 
     return QIcon(pixmap)
 
-# --- Chrome New Tab Page (NTP) HTML HTML/CSS Template ---
+# --- KT Browser New Tab Page (NTP) HTML HTML/CSS Template ---
 NTP_HTML = """
 <!DOCTYPE html>
 <html>
@@ -100,11 +100,11 @@ NTP_HTML = """
     </div>
 
     <div class="main">
-        <div class="logo">Google</div>
+        <div class="logo">KT Browser</div>
         
         <form action="https://www.google.com/search" method="get" class="search-container">
             <span class="search-plus">+</span>
-            <input type="text" name="q" class="search-input" placeholder="Ask Google or type a URL" autofocus autocomplete="off">
+            <input type="text" name="q" class="search-input" placeholder="Search with KT Browser or enter URL" autofocus autocomplete="off">
             <div class="search-actions">
                 <span class="icon-btn">🎤</span>
                 <span class="icon-btn">📷</span>
@@ -151,7 +151,7 @@ NTP_HTML = """
 
     <div class="footer">
         <div>Built by <b>Kawerify Tech</b> (<a href="https://kawerifytech.com" style="color:#d0bcff;">kawerifytech.com</a> | <b>@kawerifytech</b>)</div>
-        <button class="customize-btn">✏️ Customize Chrome</button>
+        <button class="customize-btn">✏️ Customize KT Browser</button>
     </div>
 </body>
 </html>
@@ -188,7 +188,7 @@ class KTBrowserWindow(QMainWindow):
         main_layout.setContentsMargins(0, 0, 0, 0)
         main_layout.setSpacing(0)
 
-        # Apply Chrome Dark Purple Palette
+        # Apply KT Browser Dark Purple Palette
         self.setStyleSheet("""
             QMainWindow { background-color: #2b2238; }
             QTabWidget::pane { border: none; background: #2b2238; }

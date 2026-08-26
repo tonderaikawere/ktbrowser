@@ -80,10 +80,10 @@ void TabBar::setupUi() {
         }
     )");
 
-    // Top Right Chrome "Ask Gemini" pill button matching screenshot
+    // Top Right KT AI Assistant pill button
     auto* askGeminiBtn = new QToolButton(this);
-    askGeminiBtn->setText("✨ Ask Gemini");
-    askGeminiBtn->setToolTip("Google Gemini AI Assistant");
+    askGeminiBtn->setText("✨ KT AI Assistant");
+    askGeminiBtn->setToolTip("KT Browser AI Assistant");
     askGeminiBtn->setStyleSheet(R"(
         QToolButton {
             background-color: #4a3461;
@@ -106,6 +106,7 @@ void TabBar::setupUi() {
 
     connect(m_tabBar, &QTabBar::currentChanged, this, &TabBar::currentChanged);
     connect(m_tabBar, &QTabBar::tabCloseRequested, this, &TabBar::tabCloseRequested);
+    connect(m_tabBar, &QTabBar::tabCloseRequested, this, &TabBar::closeTabRequested);
     connect(m_tabBar, &QTabBar::tabMoved, this, &TabBar::tabMoved);
     connect(m_newTabBtn, &QToolButton::clicked, this, &TabBar::newTabRequested);
 }

@@ -127,7 +127,7 @@ def save_bookmarks(data):
     except Exception:
         pass
 
-# --- High-Resolution Classic Chrome Blue Icon Generator ---
+# --- High-Resolution KT Browser Blue Icon Generator ---
 def create_app_icon():
     pixmap = QPixmap(256, 256)
     pixmap.fill(Qt.GlobalColor.transparent)
@@ -163,7 +163,209 @@ def save_ico_file():
     except Exception:
         pass
 
-# --- Classic Light Google Chrome New Tab Page HTML/CSS ---
+
+SETTINGS_HTML = """<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Settings - KT Browser</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    body { background-color: #1e1829; color: #e6e1e5; display: flex; height: 100vh; overflow: hidden; }
+    .sidebar { width: 240px; background: #261f33; padding: 24px 16px; border-right: 1px solid #362947; display: flex; flex-direction: column; gap: 8px; }
+    .sidebar-title { color: #d0bcff; font-size: 20px; font-weight: 700; padding: 8px 12px; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
+    .nav-item { padding: 12px 16px; border-radius: 12px; color: #cac4d0; cursor: pointer; text-decoration: none; font-size: 14px; font-weight: 500; display: flex; align-items: center; gap: 12px; transition: all 0.2s; }
+    .nav-item:hover, .nav-item.active { background: #382d47; color: #ffffff; }
+    .content { flex: 1; padding: 40px 60px; overflow-y: auto; }
+    .section-title { font-size: 24px; font-weight: 600; color: #ffffff; margin-bottom: 24px; border-bottom: 1px solid #362947; padding-bottom: 12px; }
+    .card { background: #2b223b; border-radius: 16px; padding: 20px 24px; margin-bottom: 20px; border: 1px solid #3d3052; }
+    .row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+    .row:last-child { margin-bottom: 0; }
+    .row-info h4 { font-size: 15px; color: #ffffff; font-weight: 600; }
+    .row-info p { font-size: 13px; color: #b3a0d9; margin-top: 4px; }
+    select, input[type="text"] { background: #382d47; border: 1px solid #4f3d66; color: #ffffff; padding: 8px 14px; border-radius: 8px; font-size: 14px; outline: none; }
+    button { background: #6750a4; color: #ffffff; border: none; padding: 10px 20px; border-radius: 20px; font-size: 14px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+    button:hover { background: #7d52d9; }
+</style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-title">⚙️ Settings</div>
+        <a class="nav-item active" href="#appearance">🎨 Appearance</a>
+        <a class="nav-item" href="#search">🔍 Search Engine</a>
+        <a class="nav-item" href="#privacy">🛡️ Privacy & Security</a>
+        <a class="nav-item" href="#startup">🚀 On Startup</a>
+        <a class="nav-item" href="#downloads">📥 Downloads</a>
+        <a class="nav-item" href="#permissions">🔒 Permissions</a>
+        <a class="nav-item" href="#about">ℹ️ About</a>
+    </div>
+    <div class="content">
+        <div class="section-title">Settings Overview</div>
+        <div class="card">
+            <div class="row">
+                <div class="row-info">
+                    <h4>Appearance Theme</h4>
+                    <p>Select your preferred KT Browser visual theme</p>
+                </div>
+                <select id="themeSelect">
+                    <option value="dark" selected>Dark Theme (Kawerify Purple)</option>
+                    <option value="light">Light Theme (Chrome Blue)</option>
+                    <option value="system">System Default</option>
+                </select>
+            </div>
+        </div>
+        <div class="card">
+            <div class="row">
+                <div class="row-info">
+                    <h4>Default Search Engine</h4>
+                    <p>Used for searches from address bar and new tab page</p>
+                </div>
+                <select id="searchEngine">
+                    <option value="Google" selected>Google</option>
+                    <option value="DuckDuckGo">DuckDuckGo</option>
+                    <option value="Brave">Brave Search</option>
+                    <option value="Bing">Bing</option>
+                </select>
+            </div>
+        </div>
+        <div class="card">
+            <div class="row">
+                <div class="row-info">
+                    <h4>AdBlock & Tracker Interceptor</h4>
+                    <p>Block intrusive ads and tracking scripts automatically</p>
+                </div>
+                <button onclick="alert('AdBlock Protection Enabled')">Enabled (Strict)</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="row">
+                <div class="row-info">
+                    <h4>Clear Browsing Data</h4>
+                    <p>Clear history, cookies, cached images and site data</p>
+                </div>
+                <button style="background: #b3261e;" onclick="alert('Browsing data cleared successfully!')">Clear Data</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>"""
+
+
+PROFILE_HTML = """<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>User Profile - KT Browser</title>
+<style>
+    body { background: #1e1829; color: #e6e1e5; font-family: 'Segoe UI', sans-serif; padding: 40px; }
+    .card { background: #2b223b; border-radius: 16px; padding: 24px; border: 1px solid #3d3052; max-width: 600px; }
+    .avatar { width: 64px; height: 64px; border-radius: 32px; background: #34a853; color: white; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: bold; margin-bottom: 16px; }
+    .badge { background: #1b5e20; color: #81c784; padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; }
+</style>
+</head>
+<body>
+    <div class="card">
+        <div class="avatar">T</div>
+        <h2>Tonderai <span class="badge">Signed In</span></h2>
+        <p style="color: #b3a0d9; margin-top: 8px;">Sync is ON across all your Kawerify Tech devices</p>
+    </div>
+</body>
+</html>"""
+
+PASSWORDS_HTML = """<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Passwords & Autofill - KT Browser</title>
+<style>
+    body { background: #1e1829; color: #e6e1e5; font-family: 'Segoe UI', sans-serif; padding: 40px; }
+    .card { background: #2b223b; border-radius: 16px; padding: 24px; border: 1px solid #3d3052; max-width: 700px; margin-bottom: 16px; }
+    button { background: #6750a4; color: white; border: none; padding: 8px 16px; border-radius: 16px; font-weight: bold; cursor: pointer; }
+</style>
+</head>
+<body>
+    <h1>🔑 Passwords & Autofill</h1>
+    <p style="color: #b3a0d9; margin-bottom: 24px;">Manage saved passwords, addresses, and payment methods securely.</p>
+    <div class="card">
+        <h3>Saved Passwords (0)</h3>
+        <p style="color: #b3a0d9; margin-top: 8px;">No passwords saved yet. KT Browser automatically prompts when you log in.</p>
+    </div>
+    <div class="card">
+        <h3>Autofill Addresses & Payment Info</h3>
+        <p style="color: #b3a0d9; margin-top: 8px;">Save your shipping info and cards locally.</p>
+    </div>
+</body>
+</html>"""
+
+TABGROUPS_HTML = """<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Tab Groups - KT Browser</title>
+<style>body { background: #1e1829; color: #e6e1e5; font-family: 'Segoe UI', sans-serif; padding: 40px; }</style>
+</head>
+<body>
+    <h1>📁 Tab Groups</h1>
+    <p style="color: #b3a0d9; margin-top: 12px;">Organize your active tabs into custom color-coded workspace groups.</p>
+</body>
+</html>"""
+
+EXTENSIONS_HTML = """<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Extensions - KT Browser</title>
+<style>
+    body { background: #1e1829; color: #e6e1e5; font-family: 'Segoe UI', sans-serif; padding: 40px; }
+    .card { background: #2b223b; border-radius: 16px; padding: 20px; border: 1px solid #3d3052; max-width: 600px; margin-top: 20px; }
+</style>
+</head>
+<body>
+    <h1>🧩 Extensions</h1>
+    <p style="color: #b3a0d9;">Manage installed extensions and developer tools.</p>
+    <div class="card">
+        <h3>🛡️ Built-in Tracker & Ad Interceptor</h3>
+        <p style="color: #b3a0d9; margin-top: 6px;">Version 1.0.0 (Active)</p>
+    </div>
+</body>
+</html>"""
+
+AI_HTML = """<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>KT AI Assistant</title>
+<style>
+    body { background: #1e1829; color: #e6e1e5; font-family: 'Segoe UI', sans-serif; padding: 40px; }
+    .chat-box { background: #2b223b; border-radius: 16px; padding: 24px; border: 1px solid #3d3052; max-width: 800px; height: 400px; overflow-y: auto; }
+</style>
+</head>
+<body>
+    <h1>✨ KT AI Assistant (Powered by Kawerify Tech)</h1>
+    <div class="chat-box">
+        <p><strong>KT AI:</strong> Hello Tonderai! How can I assist you with your web browsing today?</p>
+    </div>
+</body>
+</html>"""
+
+TOOLS_HTML = """<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>More Tools - KT Browser</title>
+<style>body { background: #1e1829; color: #e6e1e5; font-family: 'Segoe UI', sans-serif; padding: 40px; }</style>
+</head>
+<body>
+    <h1>🛠️ More Tools & Developer Features</h1>
+    <ul style="margin-top: 16px; line-height: 2;">
+        <li>Task Manager</li>
+        <li>Developer Tools (F12)</li>
+        <li>Inspect Element</li>
+        <li>Save Page As...</li>
+    </ul>
+</body>
+</html>"""
+
+HELP_HTML = """<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Help - KT Browser</title>
+<style>body { background: #1e1829; color: #e6e1e5; font-family: 'Segoe UI', sans-serif; padding: 40px; }</style>
+</head>
+<body>
+    <h1>❓ Help & Support</h1>
+    <p style="margin-top: 12px;">Visit <a href="https://kawerifytech.com" style="color: #d0bcff;">kawerifytech.com</a> for support and documentation.</p>
+</body>
+</html>"""
+
+# --- KT Browser New Tab Page HTML/CSS ---
 NTP_HTML = """
 <!DOCTYPE html>
 <html>
@@ -197,11 +399,11 @@ NTP_HTML = """
 <body>
     <div class="main">
         <div class="logo-container">
-            <span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span>
+            <span style="color:#d0bcff;">KT Browser</span>
         </div>
         
         <form action="https://www.google.com/search" method="get" class="search-container">
-            <input type="text" name="q" class="search-input" placeholder="Search Google or type a URL" autofocus autocomplete="off">
+            <input type="text" name="q" class="search-input" placeholder="Search with KT Browser or enter URL" autofocus autocomplete="off">
             <span class="mic-icon" title="Search by voice">🎤</span>
         </form>
 
@@ -214,9 +416,9 @@ NTP_HTML = """
                 <div class="shortcut-icon">🌐</div>
                 <div class="shortcut-label">Google</div>
             </a>
-            <a href="https://chromewebstore.google.com" class="shortcut-item">
+            <a href="https://kawerifytech.com" class="shortcut-item">
                 <div class="shortcut-icon">🏪</div>
-                <div class="shortcut-label">Chrome Web ...</div>
+                <div class="shortcut-label">Kawerify Tech</div>
             </a>
             <a href="https://kawerifytech.com" class="shortcut-item">
                 <div class="shortcut-icon">+</div>
@@ -394,7 +596,7 @@ class KTBrowserWindow(QMainWindow):
         main_layout.setContentsMargins(0, 0, 0, 0)
         main_layout.setSpacing(0)
 
-        # Global Clean Styling matching Classic Chrome Blue 100%
+        # Global Clean Styling matching KT Browser Blue 100%
         self.setStyleSheet("""
             QMainWindow { background-color: #ffffff; }
             QMenu {
@@ -420,7 +622,7 @@ class KTBrowserWindow(QMainWindow):
             }
         """)
 
-        # 1. TOP TAB STRIP CONTAINER (#4a80cb Classic Chrome Blue)
+        # 1. TOP TAB STRIP CONTAINER (#4a80cb KT Browser Blue)
         tab_container = QWidget(self)
         tab_container.setStyleSheet("background-color: #4a80cb;")
         tab_container_layout = QHBoxLayout(tab_container)
@@ -550,51 +752,88 @@ class KTBrowserWindow(QMainWindow):
         profile_btn.setText("👤")
         profile_btn.setToolTip("Kawerify Tech Profile")
         profile_btn.setStyleSheet(btn_style)
-        profile_btn.clicked.connect(lambda: self.add_new_tab("https://accounts.google.com"))
+        profile_btn.clicked.connect(lambda: self.add_new_tab("https://kawerifytech.com"))
 
         menu_btn = QToolButton(self)
         menu_btn.setText("⋮")
         menu_btn.setToolTip("Customize and Control KT Browser")
         menu_btn.setStyleSheet("font-size: 18px; font-weight: bold; color: #5f6368; background: transparent; border: none; min-width: 28px;")
         
-        # Build Chrome Menu
+                # Build Full 3-Dot Menu matching screenshots
         self.menu = QMenu(self)
         
-        act_new_tab = QAction("➕  New Tab", self)
+        act_new_tab = QAction("➕  New tab", self)
+        act_new_tab.setShortcut("Ctrl+T")
         act_new_tab.triggered.connect(lambda: self.add_new_tab())
-        
-        act_new_win = QAction("🪟  New Window", self)
+
+        act_new_win = QAction("🪟  New window", self)
+        act_new_win.setShortcut("Ctrl+N")
         act_new_win.triggered.connect(self.open_new_window)
 
-        act_history = QAction("📜  History", self)
-        act_history.triggered.connect(self.open_history_dialog)
+        act_incognito = QAction("🕵️  New Incognito window", self)
+        act_incognito.setShortcut("Ctrl+Shift+N")
+        act_incognito.triggered.connect(self.open_new_window)
 
-        act_bookmarks = QAction("⭐  Bookmarks", self)
-        act_bookmarks.triggered.connect(self.open_bookmarks_dialog)
+        act_profile = QAction("👤  Tonderai (Signed in)", self)
+        act_profile.triggered.connect(lambda: self.add_new_tab("ktbrowser://profile"))
+
+        act_passwords = QAction("🔑  Passwords and autofill", self)
+        act_passwords.triggered.connect(lambda: self.add_new_tab("ktbrowser://passwords"))
+
+        act_history = QAction("📜  History", self)
+        act_history.triggered.connect(lambda: self.add_new_tab("ktbrowser://history"))
 
         act_downloads = QAction("📥  Downloads", self)
-        act_downloads.triggered.connect(lambda: self.add_new_tab("chrome://downloads"))
+        act_downloads.setShortcut("Ctrl+J")
+        act_downloads.triggered.connect(lambda: self.add_new_tab("ktbrowser://downloads"))
+
+        act_bookmarks = QAction("⭐  Bookmarks and lists", self)
+        act_bookmarks.triggered.connect(lambda: self.add_new_tab("ktbrowser://bookmarks"))
+
+        act_tabgroups = QAction("📁  Tab groups", self)
+        act_tabgroups.triggered.connect(lambda: self.add_new_tab("ktbrowser://tab-groups"))
+
+        act_extensions = QAction("🧩  Extensions", self)
+        act_extensions.triggered.connect(lambda: self.add_new_tab("ktbrowser://extensions"))
+
+        act_clear = QAction("🗑️  Delete browsing data...", self)
+        act_clear.setShortcut("Ctrl+Shift+Del")
+        act_clear.triggered.connect(lambda: self.add_new_tab("ktbrowser://settings"))
+
+        act_ai = QAction("✨  Open KT AI Assistant", self)
+        act_ai.triggered.connect(lambda: self.add_new_tab("ktbrowser://ai"))
+
+        act_tools = QAction("🛠️  More tools", self)
+        act_tools.triggered.connect(lambda: self.add_new_tab("ktbrowser://tools"))
+
+        act_help = QAction("❓  Help", self)
+        act_help.triggered.connect(lambda: self.add_new_tab("ktbrowser://help"))
 
         act_settings = QAction("⚙️  Settings", self)
-        act_settings.triggered.connect(self.open_settings_dialog)
+        act_settings.triggered.connect(lambda: self.add_new_tab("ktbrowser://settings"))
 
-        act_legal = QAction("🛡️  Cybersecurity & Legal Documents", self)
-        act_legal.triggered.connect(self.show_legal_docs)
-
-        act_about = QAction("ℹ️  About KT Browser (Kawerify Tech)", self)
-        act_about.triggered.connect(self.show_about)
+        act_exit = QAction("🚪  Exit", self)
+        act_exit.triggered.connect(self.close)
 
         self.menu.addAction(act_new_tab)
         self.menu.addAction(act_new_win)
+        self.menu.addAction(act_incognito)
         self.menu.addSeparator()
+        self.menu.addAction(act_profile)
+        self.menu.addAction(act_passwords)
         self.menu.addAction(act_history)
-        self.menu.addAction(act_bookmarks)
         self.menu.addAction(act_downloads)
-        self.menu.addAction(act_settings)
+        self.menu.addAction(act_bookmarks)
+        self.menu.addAction(act_tabgroups)
+        self.menu.addAction(act_extensions)
+        self.menu.addAction(act_clear)
         self.menu.addSeparator()
-        self.menu.addAction(act_legal)
-        self.menu.addAction(act_about)
-
+        self.menu.addAction(act_ai)
+        self.menu.addAction(act_tools)
+        self.menu.addSeparator()
+        self.menu.addAction(act_help)
+        self.menu.addAction(act_settings)
+        self.menu.addAction(act_exit)
         menu_btn.setMenu(self.menu)
         menu_btn.setPopupMode(QToolButton.ToolButtonPopupMode.InstantPopup)
 
@@ -620,7 +859,7 @@ class KTBrowserWindow(QMainWindow):
             }
             QToolButton:hover { background: rgba(0, 0, 0, 0.06); border-radius: 4px; }
         """)
-        apps_btn.clicked.connect(lambda: self.add_new_tab("https://chromewebstore.google.com"))
+        apps_btn.clicked.connect(lambda: self.add_new_tab("https://kawerifytech.com"))
 
         bookmarks_layout.addWidget(apps_btn)
         bookmarks_layout.addStretch()
@@ -648,21 +887,35 @@ class KTBrowserWindow(QMainWindow):
         page = KTWebEnginePage(self, view)
         view.setPage(page)
 
-        if url:
+        url_str = str(url) if url else ""
+        if url_str == "ktbrowser://settings":
+            view.setHtml(SETTINGS_HTML, QUrl("ktbrowser://settings"))
+        elif url_str == "ktbrowser://profile":
+            view.setHtml(PROFILE_HTML, QUrl("ktbrowser://profile"))
+        elif url_str == "ktbrowser://passwords":
+            view.setHtml(PASSWORDS_HTML, QUrl("ktbrowser://passwords"))
+        elif url_str == "ktbrowser://tab-groups":
+            view.setHtml(TABGROUPS_HTML, QUrl("ktbrowser://tab-groups"))
+        elif url_str == "ktbrowser://extensions":
+            view.setHtml(EXTENSIONS_HTML, QUrl("ktbrowser://extensions"))
+        elif url_str == "ktbrowser://ai":
+            view.setHtml(AI_HTML, QUrl("ktbrowser://ai"))
+        elif url_str == "ktbrowser://tools":
+            view.setHtml(TOOLS_HTML, QUrl("ktbrowser://tools"))
+        elif url_str == "ktbrowser://help":
+            view.setHtml(HELP_HTML, QUrl("ktbrowser://help"))
+        elif url_str == "ktbrowser://history":
+            view.setHtml("<html><body style='background:#1e1829;color:#fff;padding:40px;font-family:sans-serif;'><h1>📜 Browsing History</h1><p>Search and manage your browsing history in KT Browser.</p></body></html>", QUrl("ktbrowser://history"))
+        elif url_str == "ktbrowser://bookmarks":
+            view.setHtml("<html><body style='background:#1e1829;color:#fff;padding:40px;font-family:sans-serif;'><h1>⭐ Bookmarks Manager</h1><p>Organize your bookmarks and folder trees.</p></body></html>", QUrl("ktbrowser://bookmarks"))
+        elif url_str == "ktbrowser://downloads":
+            view.setHtml("<html><body style='background:#1e1829;color:#fff;padding:40px;font-family:sans-serif;'><h1>📥 Download Manager</h1><p>Track your active and finished downloads.</p></body></html>", QUrl("ktbrowser://downloads"))
+        elif url_str == "ktbrowser://about":
+            view.setHtml("<html><body style='background:#1e1829;color:#fff;padding:40px;font-family:sans-serif;'><h1>ℹ️ About KT Browser</h1><p>KT Browser v1.0.0 by Kawerify Tech (https://kawerifytech.com)</p></body></html>", QUrl("ktbrowser://about"))
+        elif url:
             view.setUrl(QUrl(url))
         else:
             view.setHtml(NTP_HTML, QUrl("ktbrowser://newtab"))
-
-        stack_index = self.web_stack.addWidget(view)
-        tab_index = self.tab_bar.addTab("New Tab")
-        self.tab_bar.setTabData(tab_index, stack_index)
-        self.tab_bar.setCurrentIndex(tab_index)
-        self.web_stack.setCurrentIndex(stack_index)
-
-        view.urlChanged.connect(lambda qurl, v=view: self.on_url_changed(qurl, v))
-        view.titleChanged.connect(lambda title, v=view: self.on_title_changed(title, v))
-        view.iconChanged.connect(lambda icon, v=view: self.on_icon_changed(icon, v))
-
         self.update_nav_buttons()
         return view
 
