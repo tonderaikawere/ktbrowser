@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(CodeBrowser VERSION 1.0.0 LANGUAGES CXX)
+project(KTBrowser VERSION 1.0.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -102,13 +102,13 @@ if (Qt6WebEngineWidgets_FOUND)
 endif()
 
 # WIN32 flag prevents terminal window from opening
-add_executable(codebrowser WIN32 ${PROJECT_SOURCES} ${PROJECT_HEADERS} ${PROJECT_RESOURCES})
+add_executable(ktbrowser WIN32 ${PROJECT_SOURCES} ${PROJECT_HEADERS} ${PROJECT_RESOURCES})
 
 if (MINGW OR GNU)
-    target_link_options(codebrowser PRIVATE -mwindows -static-libgcc -static-libstdc++)
+    target_link_options(ktbrowser PRIVATE -mwindows -static-libgcc -static-libstdc++)
 endif()
 
-target_link_libraries(codebrowser PRIVATE
+target_link_libraries(ktbrowser PRIVATE
     Qt6::Core
     Qt6::Widgets
     Qt6::Sql
@@ -143,9 +143,9 @@ target_link_libraries(test_database PRIVATE Qt6::Core Qt6::Sql)
 add_test(NAME DatabaseTest COMMAND test_database)
 
 # CPack Installer Configuration
-set(CPACK_PACKAGE_NAME "CodeBrowser")
-set(CPACK_PACKAGE_VENDOR "CodeBrowser Project")
+set(CPACK_PACKAGE_NAME "KTBrowser")
+set(CPACK_PACKAGE_VENDOR "Kawerify Tech")
 set(CPACK_PACKAGE_VERSION "1.0.0")
-set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Fast, Clean, Privacy-Focused Native C++ Web Browser")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "KT Browser by Kawerify Tech - Fast, Clean, Security-Focused Web Browser")
 set(CPACK_GENERATOR "ZIP;NSIS")
 include(CPack)

@@ -18,10 +18,10 @@ sys.argv.append("--no-sandbox")
 sys.argv.append("--disable-gpu-sandbox")
 
 from PyQt6.QtCore import QUrl, Qt, QPoint
-from PyQt6.QtGui import QIcon, QPixmap, QPainter, QColor, QRadialGradient, QAction
+from PyQt6.QtGui import QIcon, QPixmap, QPainter, QColor, QAction
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-    QLineEdit, QToolButton, QTabWidget, QLabel, QMenu, QMessageBox,
+    QLineEdit, QToolButton, QTabBar, QStackedWidget, QLabel, QMenu, QMessageBox,
     QDialog, QListWidget, QListWidgetItem, QPushButton, QFormLayout,
     QComboBox, QCheckBox
 )
@@ -208,7 +208,7 @@ NTP_HTML = """
         <div class="shortcuts">
             <a href="https://mail.google.com" class="shortcut-item">
                 <div class="shortcut-icon">✉️</div>
-                <div class="shortcut-label">Webmail Google...</div>
+                <div class="shortcut-label">Webmail Goo...</div>
             </a>
             <a href="https://www.google.com" class="shortcut-item">
                 <div class="shortcut-icon">🌐</div>
@@ -216,7 +216,7 @@ NTP_HTML = """
             </a>
             <a href="https://chromewebstore.google.com" class="shortcut-item">
                 <div class="shortcut-icon">🏪</div>
-                <div class="shortcut-label">Chrome Web Store</div>
+                <div class="shortcut-label">Chrome Web ...</div>
             </a>
             <a href="https://kawerifytech.com" class="shortcut-item">
                 <div class="shortcut-icon">+</div>
@@ -373,14 +373,14 @@ class KTBrowserWindow(QMainWindow):
         self.setWindowIcon(icon)
         QApplication.setWindowIcon(icon)
 
-        # Standard windowed size centered on screen (NOT full screen / NOT maximized)
-        self.resize(1024, 720)
+        # Standard window size centered on screen
+        self.resize(1080, 720)
         self.setMinimumSize(800, 550)
 
-        # Center on screen
+        # Center window on screen
         if QApplication.primaryScreen():
             geo = QApplication.primaryScreen().geometry()
-            self.move((geo.width() - 1024) // 2, (geo.height() - 720) // 2)
+            self.move((geo.width() - 1080) // 2, (geo.height() - 720) // 2)
 
         profile = QWebEngineProfile.defaultProfile()
         profile.downloadRequested.connect(self.on_download_requested)
@@ -394,36 +394,9 @@ class KTBrowserWindow(QMainWindow):
         main_layout.setContentsMargins(0, 0, 0, 0)
         main_layout.setSpacing(0)
 
-        # Classic Light Blue Google Chrome Styling
+        # Global Clean Styling matching Classic Chrome Blue 100%
         self.setStyleSheet("""
             QMainWindow { background-color: #ffffff; }
-            QTabWidget::pane { border: none; background: #ffffff; }
-            QTabBar { background-color: #3b70b9; padding-top: 5px; padding-left: 6px; }
-            QTabBar::tab {
-                background: #2b5997;
-                color: #ffffff;
-                border-top-left-radius: 8px;
-                border-top-right-radius: 8px;
-                padding: 6px 16px;
-                margin-right: 2px;
-                min-width: 130px;
-                max-width: 220px;
-                font-size: 13px;
-                font-weight: 500;
-            }
-            QTabBar::tab:selected {
-                background: #ffffff;
-                color: #202124;
-                font-weight: 600;
-            }
-            QTabBar::tab:hover:!selected {
-                background: #3567a9;
-                color: #ffffff;
-            }
-            QTabBar::close-button {
-                image: none;
-                margin-left: 6px;
-            }
             QMenu {
                 background-color: #ffffff;
                 color: #202124;
@@ -447,12 +420,46 @@ class KTBrowserWindow(QMainWindow):
             }
         """)
 
-        # --- TAB STRIP CONTAINER ---
-        self.tabs = QTabWidget(self)
-        self.tabs.setTabsClosable(True)
-        self.tabs.setMovable(True)
-        self.tabs.tabCloseRequested.connect(self.close_tab)
-        self.tabs.currentChanged.connect(self.on_tab_changed)
+        # 1. TOP TAB STRIP CONTAINER (#4a80cb Classic Chrome Blue)
+        tab_container = QWidget(self)
+        tab_container.setStyleSheet("background-color: #4a80cb;")
+        tab_container_layout = QHBoxLayout(tab_container)
+        tab_container_layout.setContentsMargins(6, 6, 6, 0)
+        tab_container_layout.setSpacing(4)
+
+        self.tab_bar = QTabBar(self)
+        self.tab_bar.setTabsClosable(True)
+        self.tab_bar.setMovable(True)
+        self.tab_bar.setStyleSheet("""
+            QTabBar { background-color: #4a80cb; }
+            QTabBar::tab {
+                background: #3b70b9;
+                color: #ffffff;
+                border-top-left-radius: 8px;
+                border-top-right-radius: 8px;
+                padding: 7px 18px;
+                margin-right: 2px;
+                min-width: 140px;
+                max-width: 220px;
+                font-size: 13px;
+                font-weight: 500;
+            }
+            QTabBar::tab:selected {
+                background: #ffffff;
+                color: #202124;
+                font-weight: 600;
+            }
+            QTabBar::tab:hover:!selected {
+                background: #4378c2;
+                color: #ffffff;
+            }
+            QTabBar::close-button {
+                image: none;
+                margin-left: 6px;
+            }
+        """)
+        self.tab_bar.tabCloseRequested.connect(self.close_tab)
+        self.tab_bar.currentChanged.connect(self.on_tab_changed)
 
         add_tab_btn = QToolButton(self)
         add_tab_btn.setText("+")
@@ -460,25 +467,28 @@ class KTBrowserWindow(QMainWindow):
         add_tab_btn.setStyleSheet("""
             QToolButton {
                 background: transparent; color: #ffffff; border: none;
-                font-size: 18px; font-weight: bold; padding: 2px 8px;
+                font-size: 20px; font-weight: bold; padding: 2px 10px;
+                border-radius: 12px;
             }
-            QToolButton:hover { background: rgba(255, 255, 255, 0.2); border-radius: 12px; }
+            QToolButton:hover { background: rgba(255, 255, 255, 0.25); color: #ffffff; }
         """)
         add_tab_btn.clicked.connect(lambda: self.add_new_tab())
 
-        self.tabs.setCornerWidget(add_tab_btn, Qt.Corner.TopRightCorner)
+        tab_container_layout.addWidget(self.tab_bar)
+        tab_container_layout.addWidget(add_tab_btn)
+        tab_container_layout.addStretch()
 
-        # --- NAVIGATION BAR (TOOLBAR) ---
+        # 2. NAVIGATION BAR (MIDDLE TOOLBAR - #dee1e6)
         nav_bar = QWidget(self)
-        nav_bar.setStyleSheet("background-color: #e8eaed; padding: 4px 8px; border-bottom: 1px solid #dadce0;")
+        nav_bar.setStyleSheet("background-color: #dee1e6; border-bottom: 1px solid #dadce0;")
         nav_layout = QHBoxLayout(nav_bar)
-        nav_layout.setContentsMargins(8, 2, 8, 4)
+        nav_layout.setContentsMargins(8, 4, 8, 4)
         nav_layout.setSpacing(6)
 
         btn_style = """
             QToolButton {
                 background: transparent; color: #5f6368; border: none;
-                border-radius: 14px; font-size: 14px; min-width: 28px; min-height: 28px;
+                border-radius: 14px; font-size: 15px; min-width: 28px; min-height: 28px;
             }
             QToolButton:hover { background: rgba(0, 0, 0, 0.08); color: #202124; }
             QToolButton:disabled { color: #b0b3b8; }
@@ -510,12 +520,12 @@ class KTBrowserWindow(QMainWindow):
             QLineEdit {
                 background-color: #ffffff;
                 color: #202124;
-                border: 1px solid #dadce0;
+                border: 1px solid #dfe1e5;
                 border-radius: 16px;
                 padding: 6px 60px 6px 36px;
                 font-size: 14px;
             }
-            QLineEdit:focus { background-color: #ffffff; border: 1px solid #1a73e8; }
+            QLineEdit:focus { background-color: #ffffff; border: 1px solid #1a73e8; box-shadow: 0 1px 6px rgba(32,33,36,0.2); }
         """)
 
         address_internal_layout = QHBoxLayout(self.address_bar)
@@ -595,9 +605,9 @@ class KTBrowserWindow(QMainWindow):
         nav_layout.addWidget(profile_btn)
         nav_layout.addWidget(menu_btn)
 
-        # --- BOOKMARKS BAR (BELOW TOOLBAR) ---
+        # 3. BOOKMARKS BAR (BELOW TOOLBAR)
         bookmarks_bar = QWidget(self)
-        bookmarks_bar.setStyleSheet("background-color: #f1f3f4; border-bottom: 1px solid #e0e0e0; padding: 2px 12px;")
+        bookmarks_bar.setStyleSheet("background-color: #e8eaed; border-bottom: 1px solid #dadce0; padding: 2px 12px;")
         bookmarks_layout = QHBoxLayout(bookmarks_bar)
         bookmarks_layout.setContentsMargins(8, 0, 8, 2)
 
@@ -615,9 +625,13 @@ class KTBrowserWindow(QMainWindow):
         bookmarks_layout.addWidget(apps_btn)
         bookmarks_layout.addStretch()
 
-        main_layout.addWidget(self.tabs)
+        # 4. WEB VIEW STACK
+        self.web_stack = QStackedWidget(self)
+
+        main_layout.addWidget(tab_container)
         main_layout.addWidget(nav_bar)
         main_layout.addWidget(bookmarks_bar)
+        main_layout.addWidget(self.web_stack, 1)
 
         self.address_bar.returnPressed.connect(self.navigate_to_url)
         self.back_btn.clicked.connect(lambda: self.current_view().back() if self.current_view() else None)
@@ -627,7 +641,7 @@ class KTBrowserWindow(QMainWindow):
         self.add_new_tab()
 
     def current_view(self):
-        return self.tabs.currentWidget()
+        return self.web_stack.currentWidget()
 
     def add_new_tab(self, url=None):
         view = QWebEngineView(self)
@@ -639,8 +653,11 @@ class KTBrowserWindow(QMainWindow):
         else:
             view.setHtml(NTP_HTML, QUrl("codebrowser://newtab"))
 
-        index = self.tabs.addTab(view, "New Tab")
-        self.tabs.setCurrentIndex(index)
+        stack_index = self.web_stack.addWidget(view)
+        tab_index = self.tab_bar.addTab("New Tab")
+        self.tab_bar.setTabData(tab_index, stack_index)
+        self.tab_bar.setCurrentIndex(tab_index)
+        self.web_stack.setCurrentIndex(stack_index)
 
         view.urlChanged.connect(lambda qurl, v=view: self.on_url_changed(qurl, v))
         view.titleChanged.connect(lambda title, v=view: self.on_title_changed(title, v))
@@ -650,26 +667,33 @@ class KTBrowserWindow(QMainWindow):
         return view
 
     def close_tab(self, index):
-        if self.tabs.count() > 1:
-            view = self.tabs.widget(index)
-            self.tabs.removeTab(index)
+        if self.tab_bar.count() > 1:
+            stack_index = self.tab_bar.tabData(index)
+            view = self.web_stack.widget(stack_index)
+            self.tab_bar.removeTab(index)
             if view:
+                self.web_stack.removeWidget(view)
                 view.deleteLater()
         self.update_nav_buttons()
 
     def on_tab_changed(self, index):
-        view = self.current_view()
-        if view:
-            qurl = view.url()
-            url_str = qurl.toString()
-            if url_str == "codebrowser://newtab" or url_str == "about:blank":
-                self.address_bar.setText("")
-                self.security_icon.setText("G")
-                self.security_icon.setStyleSheet("color: #ea4335; font-weight: bold; font-size: 14px;")
-            else:
-                self.address_bar.setText(url_str)
-                self.security_icon.setText("🔒" if qurl.scheme() == "https" else "🌐")
-                self.security_icon.setStyleSheet("color: #1a73e8; font-size: 14px;")
+        if index < 0:
+            return
+        stack_index = self.tab_bar.tabData(index)
+        if stack_index is not None and stack_index < self.web_stack.count():
+            self.web_stack.setCurrentIndex(stack_index)
+            view = self.current_view()
+            if view:
+                qurl = view.url()
+                url_str = qurl.toString()
+                if url_str == "codebrowser://newtab" or url_str == "about:blank":
+                    self.address_bar.setText("")
+                    self.security_icon.setText("G")
+                    self.security_icon.setStyleSheet("color: #ea4335; font-weight: bold; font-size: 14px;")
+                else:
+                    self.address_bar.setText(url_str)
+                    self.security_icon.setText("🔒" if qurl.scheme() == "https" else "🌐")
+                    self.security_icon.setStyleSheet("color: #1a73e8; font-size: 14px;")
         self.update_nav_buttons()
 
     def update_nav_buttons(self):
@@ -693,16 +717,19 @@ class KTBrowserWindow(QMainWindow):
             self.update_nav_buttons()
 
     def on_title_changed(self, title, view):
-        index = self.tabs.indexOf(view)
-        if index != -1:
-            self.tabs.setTabText(index, title if title else "New Tab")
-            if view == self.current_view():
-                record_history(view.url().toString(), title)
+        for i in range(self.tab_bar.count()):
+            if self.web_stack.widget(self.tab_bar.tabData(i)) == view:
+                self.tab_bar.setTabText(i, title if title else "New Tab")
+                if view == self.current_view():
+                    record_history(view.url().toString(), title)
+                break
 
     def on_icon_changed(self, icon, view):
-        index = self.tabs.indexOf(view)
-        if index != -1 and not icon.isNull():
-            self.tabs.setTabIcon(index, icon)
+        for i in range(self.tab_bar.count()):
+            if self.web_stack.widget(self.tab_bar.tabData(i)) == view:
+                if not icon.isNull():
+                    self.tab_bar.setTabIcon(i, icon)
+                break
 
     def navigate_to_url(self):
         text = self.address_bar.text().strip()

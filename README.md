@@ -1,30 +1,87 @@
-# CodeBrowser
+# 🚀 KT Browser (by Kawerify Tech)
 
-**CodeBrowser** is a fast, clean, modern, privacy-focused native desktop web browser built with **C++20**, **Qt 6**, **Qt WebEngine**, **CMake**, and **SQLite**.
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://kawerifytech.com)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Qt](https://img.shields.io/badge/Qt-6.x-brightgreen.svg)](https://www.qt.io/)
+[![Python](https://img.shields.io/badge/Python-3.13%2B-blue.svg)](https://www.python.org/)
+[![Developer](https://img.shields.io/badge/Developer-Kawerify%20Tech-orange.svg)](https://kawerifytech.com)
 
-## Key Features
+**KT Browser** (short for **Kawerify Tech Browser**) is a fast, lightweight, security-first web browser built with a pixel-identical **Google Chrome design**, powered by Qt 6 WebEngine and Chromium core.
 
-- **Native Qt 6 Desktop Interface**: Modern, lightweight, fast, with clean rounded controls and custom theme engine (Light, Dark, System Sync).
-- **Request-Level Ad & Tracker Blocking**: Built-in `AdBlockEngine` using native `QWebEngineUrlRequestInterceptor` to block ads, third-party trackers, analytics, and fingerprinting scripts before network dispatch.
-- **Privacy Dashboard**: Native visual dashboard tracking total ads blocked, trackers stopped, HTTPS ratio, active cookies, and site permissions.
-- **SQLite Persistence**: Complete persistent storage for browsing history, bookmarks, bookmark folders, download history, search history, custom filter lists, and site permissions.
-- **Tab & Window Management**: Full tab lifecycle (Create, Close, Switch, Duplicate, Restore Closed Tab), favicon support, and native `NewTabPage`.
-- **Search Engine Selection**: Configurable defaults (Google, Bing, DuckDuckGo, Brave Search, Custom URL).
+Created and maintained by **Kawerify Tech** ([https://kawerifytech.com](https://kawerifytech.com) | **@kawerifytech** on all social media platforms).
 
-## Building CodeBrowser
+---
+
+## ✨ Features
+
+- **🎨 Classic Google Chrome Theme**: Pixel-identical light blue tab strip (`#4a80cb`), soft toolbar (`#dee1e6`), white omnibox search pill, and custom Google New Tab Page.
+- **⚡ High Performance & Multi-Tab Engine**: Smooth tab switching, fast page rendering, and low memory consumption powered by Qt 6 WebEngine.
+- **🛡️ Cybersecurity & Privacy Protection**: Built-in tracker and ad interceptor (`NetworkAdBlockInterceptor`), Do-Not-Track headers, and local sandbox isolation.
+- **🔍 Omnibox Search & Direct Navigation**: Smart address bar supporting instant Google searches, HTTPS normalization, security indicators (`🔒`/`🌐`/`G`), and instant bookmarking.
+- **⭐ Bookmarks & History Manager**: Built-in SQLite database tracking page visits, active search history, and persistent bookmarks.
+- **📥 Download Manager**: Integrated download interceptor storing files cleanly in the user's Downloads folder with real-time notifications.
+- **🖥️ Frameless & Standard OS Support**: Native OS titlebar controls, Taskbar icon binding (`SetCurrentProcessExplicitAppUserModelID`), and desktop shortcuts.
+
+---
+
+## 🛠️ Architecture & Tech Stack
+
+- **Core Engine**: Qt 6 WebEngine (`QWebEngineView`, `QWebEngineProfile`, `QWebEnginePage`) & Chromium Core
+- **GUI Framework**: PyQt6 / C++ Qt6
+- **Database**: SQLite3 (`history.db`)
+- **Config Storage**: JSON (`settings.json`, `bookmarks.json`)
+- **OS Compatibility**: Windows 10 / 11, Linux, macOS
+
+---
+
+## 💻 Quick Start & Running Locally
 
 ### Prerequisites
-- C++20 Compiler (GCC 12+, Clang 14+, or MSVC 2022)
-- Qt 6 (Core, Widgets, WebEngineWidgets, Sql, Network)
-- CMake 3.20+
-- Ninja build system
 
-### Build Steps
+Ensure you have Python 3.10+ installed along with `PyQt6` and `PyQt6-WebEngine`:
 
 ```bash
-mkdir build
-cd build
-cmake -G Ninja ..
-cmake --build .
-./codebrowser
+pip install PyQt6 PyQt6-WebEngine
 ```
+
+### Launch Browser
+
+Run the main application script:
+
+```bash
+python ktbrowser_qt6.py
+```
+
+To launch without a background command prompt on Windows:
+
+```bash
+pythonw ktbrowser_qt6.py
+```
+
+---
+
+## 📦 Building Standalone Executable (Windows)
+
+To package **KT Browser** into a standalone executable using PyInstaller:
+
+```bash
+pyinstaller --onedir --noconsole --name "ktbrowser" --icon "ktbrowser.ico" ktbrowser_qt6.py
+```
+
+The compiled binary will be placed inside `dist/ktbrowser/ktbrowser.exe`.
+
+---
+
+## 🏢 About Kawerify Tech
+
+- **Official Website**: [https://kawerifytech.com](https://kawerifytech.com)
+- **Social Media**: **@kawerifytech** (Twitter/X, LinkedIn, GitHub, Instagram, Facebook)
+- **Support & Legal**: [kawerifytech.com/legal](https://kawerifytech.com)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Developed with ❤️ by **Kawerify Tech**.
